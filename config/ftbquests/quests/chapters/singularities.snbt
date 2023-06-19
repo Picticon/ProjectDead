@@ -1,0 +1,344 @@
+{
+	id: "7E9FF2CF9FF313D5"
+	group: ""
+	order_index: 4
+	filename: "singularities"
+	title: "Singularities"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.75d
+			y: -3.0d
+			shape: "pentagon"
+			optional: true
+			id: "665D82D7AB2B6D28"
+			tasks: [
+				{
+					id: "321EF9FCC2804160"
+					type: "kill"
+					entity: "minecraft:spider"
+					value: 1L
+				}
+				{
+					id: "770EDB38194FCD04"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 1L
+				}
+				{
+					id: "73DB82502F989CBA"
+					type: "kill"
+					entity: "minecraft:creeper"
+					value: 1L
+				}
+			]
+		}
+		{
+			x: -9.75d
+			y: -0.25d
+			id: "1D34BDF160E8D2CD"
+			tasks: [{
+				id: "305BE96142979D25"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
+			rewards: [{
+				id: "40516DFD31CE1449"
+				type: "item"
+				item: "prettypipes:wrench"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -1.75d
+			id: "72388C0114822663"
+			tasks: [
+				{
+					id: "4F800065821ABDA5"
+					type: "item"
+					item: "pipez:item_pipe"
+				}
+				{
+					id: "3D73A6453BD7CAE7"
+					type: "item"
+					item: "pipez:fluid_pipe"
+				}
+			]
+			rewards: [{
+				id: "3448A19746811189"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+		}
+		{
+			x: -7.75d
+			y: -0.5d
+			id: "55C25901AD7FD464"
+			tasks: [{
+				id: "0F4AD0A5290FEDE3"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -5.0d
+			shape: "square"
+			size: 2.0d
+			id: "54D67C3484ABA86A"
+			tasks: [{
+				id: "07E18C9FC19CAD0E"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 1L
+			}]
+		}
+		{
+			x: -16.5d
+			y: -5.0d
+			dependencies: ["54D67C3484ABA86A"]
+			id: "79BD20CDF9F68BF0"
+			tasks: [{
+				id: "0B672CD31B1FA6C7"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -0.75d
+			id: "31DB68AB684C6D03"
+			tasks: [{
+				id: "624B3F5F931BD353"
+				type: "item"
+				item: "workspacedead:plunger"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -5.0d
+			dependencies: ["79BD20CDF9F68BF0"]
+			id: "42B3E95CC8AFE72B"
+			tasks: [{
+				id: "1A5D8CCE4F64411A"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
+		}
+		{
+			x: -13.75d
+			y: -3.75d
+			dependencies: ["4A9FF1ED56CCEB1E"]
+			id: "488352C332B3093E"
+			tasks: [{
+				id: "0801E55483DE1FA0"
+				type: "item"
+				item: "ftbic:macerator"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -6.25d
+			dependencies: ["42B3E95CC8AFE72B"]
+			id: "4477EE0E89A8B497"
+			tasks: [{
+				id: "177074463CC52C29"
+				type: "item"
+				item: "ftbic:basic_generator"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -2.5d
+			dependencies: ["4A9FF1ED56CCEB1E"]
+			id: "35B4885F13F91523"
+			tasks: [{
+				id: "302A22BD55856B4F"
+				type: "item"
+				item: "ftbic:compressor"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -2.5d
+			dependencies: ["35B4885F13F91523"]
+			id: "36C3CC9C4220B851"
+			tasks: [
+				{
+					id: "3E83112723B4C53E"
+					type: "item"
+					item: "ftbic:coal_ball"
+				}
+				{
+					id: "73B34029B7836A3A"
+					type: "item"
+					item: "ftbic:compressed_coal_ball"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -2.5d
+			dependencies: ["36C3CC9C4220B851"]
+			id: "67CEDC9D3BD1E1CC"
+			tasks: [
+				{
+					id: "79C02F5B53FBCAEC"
+					type: "item"
+					item: "ftbic:graphene"
+				}
+				{
+					id: "63DE110C02462E9F"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -2.5d
+			dependencies: [
+				"37C03C7628743160"
+				"62BF58D56E75D73C"
+			]
+			id: "3739F1BB8132621C"
+			tasks: [{
+				id: "3B604092324E1CBB"
+				type: "item"
+				item: "ftbic:rubber"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -3.75d
+			dependencies: [
+				"42B3E95CC8AFE72B"
+				"6E830258A4386E48"
+			]
+			id: "62BF58D56E75D73C"
+			tasks: [{
+				id: "0994655CCC0FC741"
+				type: "item"
+				item: "ftbic:centrifuge"
+			}]
+		}
+		{
+			x: -13.75d
+			y: -2.5d
+			dependencies: ["3739F1BB8132621C"]
+			id: "4A9FF1ED56CCEB1E"
+			tasks: [{
+				id: "32D522FD9F6C204F"
+				type: "item"
+				item: "ftbic:electronic_circuit"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -1.25d
+			dependencies: [
+				"72931BCFBD7DCFE1"
+				"3B8F0C239686360E"
+				"03F1E9D129448F71"
+				"74139B918024DF80"
+			]
+			id: "56B11C5262348D16"
+			tasks: [{
+				id: "433271F4FCFCDFCD"
+				type: "item"
+				item: "myrtrees:rubberwood_sapling"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -2.5d
+			dependencies: ["56B11C5262348D16"]
+			id: "6E830258A4386E48"
+			tasks: [
+				{
+					id: "39FF62AEADBA7DFF"
+					type: "item"
+					item: "myrtrees:tree_tap"
+				}
+				{
+					id: "1192F17F7E56E1B3"
+					type: "item"
+					item: "myrtrees:wooden_bucket"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -1.25d
+			dependencies: ["6E830258A4386E48"]
+			id: "37C03C7628743160"
+			tasks: [{
+				id: "481423BF03A94B0C"
+				type: "item"
+				item: "myrtrees:latex"
+			}]
+		}
+		{
+			x: -17.25d
+			y: -1.25d
+			id: "3B8F0C239686360E"
+			tasks: [
+				{
+					id: "16B3E656D5A001ED"
+					type: "item"
+					item: "thermal:jelly"
+				}
+				{
+					id: "4F55E549251F5CAD"
+					type: "item"
+					item: "thermal:strawberry_seeds"
+				}
+				{
+					id: "190AA79878F7FAAB"
+					type: "item"
+					item: "thermal:strawberry"
+				}
+			]
+		}
+		{
+			x: -19.75d
+			y: -1.25d
+			id: "03F1E9D129448F71"
+			tasks: [{
+				id: "1034D51173A55497"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			x: -18.5d
+			y: 0.0d
+			id: "72931BCFBD7DCFE1"
+			tasks: [{
+				id: "74B9913C2CDDBF97"
+				type: "item"
+				item: "tconstruct:blood_slime_ball"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -3.0d
+			dependencies: ["54D67C3484ABA86A"]
+			id: "74139B918024DF80"
+			tasks: [{
+				id: "594431B3B6D548C0"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

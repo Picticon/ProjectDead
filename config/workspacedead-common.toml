@@ -1,0 +1,15 @@
+
+["WorkspaceDead Config"]
+	#List of blocks to purify (strong), from:to, e.g. minecraft:sand:minecraft:stone
+	"Purify Crystal Block Transforms" = ["workspacedead:deadsand:minecraft:sand", "workspacedead:deaddirt:minecraft:dirt", "workspacedead:deadgravel:minecraft:gravel", "workspacedead:deadstone:minecraft:stone", "workspacedead:deadclay:minecraft:clay"]
+	#List of living entities to purify (strong), from:to, e.g. minecraft:skeleton:minecraft:zombie
+	"Purify Crystal Entity Transforms" = ["graveyard:skeleton_creeper:minecraft:creeper", "workspacedead:skeletonspider:minecraft:spider", "graveyard:ghoul:minecraft:zombie", "graveyard:revenant:minecraft:skeleton", "graveyard:nightmare:minecraft:enderman", "graveyard:acolyte:minecraft:witch", "workspacedead:draconicblaze:minecraft:blaze"]
+	#List of blocks to purify (weak), from:to, e.g. minecraft:sand:minecraft:stone
+	"Weak Purify Crystal Block Transforms" = ["workspacedead:deadsand:minecraft:sand", "workspacedead:deadstone:minecraft:stone", "workspacedead:deadclay:minecraft:clay", "workspacedead:deaddirt:minecraft:dirt", "workspacedead:deadgravel:minecraft:gravel", "workspacedead:deadslate:minecraft:slate", "minecraft:dead_bush:minecraft:sweet_berry_bush"]
+	#List of living entities to purify (weak), from:to, e.g. minecraft:chicken:minecraft:cow
+	"Weak Purify Crystal Entity Transforms" = ["workspacedead:skeletoncow:minecraft:cow", "workspacedead:skeletonsheep:minecraft:sheep", "workspacedead:skeletonpig:minecraft:pig", "workspacedead:skeletonchicken:minecraft:chicken", "workspacedead:bonegolem:minecraft:iron_golem"]
+	#List of living entities and poop types, from:to, e.g. minecraft:chicken:workspacedead:chickenpoop
+	"Poop Sources" = ["minecraft:skeleton:workspacedead:skeletonpoop", "minecraft:creeper:workspacedead:creeperpoop", "minecraft:zombie:workspacedead:zombiepoop", "minecraft:enderman:workspacedead:enderpoop", "minecraft:cow:workspacedead:cowpoop", "minecraft:chicken:workspacedead:chickenpoop", "minecraft:sheep:workspacedead:sheeppoop", "minecraft:pig:workspacedead:pigpoop", "minecraft:iron_golem:workspacedead:golempoop", "minecraft:spider:workspacedead:spiderpoop", "minecraft:villager:workspacedead:villagerpoop", "minecraft:slime:workspacedead:slimepoop", "workspacedead:draconicblaze:workspacedead:dragonpoop", "minecraft:phantom:workspacedead:phantompoop"]
+	#id of item used to open Nether Portal. Blank = default fire.
+	"Nether Portal Opening Item" = "projectdead:netherigniter"
+

@@ -1,0 +1,256 @@
+
+{
+  "registry_name": "minecraft:soul_sand_valley",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 2.0,
+    "downfall": 0.0,
+    "category": "nether",
+    "effects": {
+      "mood_sound": {
+        "sound": "minecraft:ambient.soul_sand_valley.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.soul_sand_valley.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "minecraft:music.nether.soul_sand_valley",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.00625
+      },
+      "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+      "sky_color": 7254527,
+      "fog_color": 1787717,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "features": {
+      "RAW_GENERATION": [],
+      "LAKES": [],
+      "LOCAL_MODIFICATIONS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:basalt_pillar"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "tconstruct:ichor_geode"
+        }
+      ],
+      "UNDERGROUND_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_deep"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_2_deep"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:rogue_spawner"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:rogue_spawner_deep"
+        }
+      ],
+      "SURFACE_STRUCTURES": [],
+      "STRONGHOLDS": [],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersivepetroleum:reservoir"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:nickel"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:mineral_veins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:deep_nickel"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:bauxite"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:silver"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:uranium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:lead"
+        }
+      ],
+      "UNDERGROUND_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_open"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_fire"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_soul_fire"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:glowstone_extra"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:glowstone"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_crimson_roots"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_magma"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_closed"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_soul_sand"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_gravel_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_blackstone"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_gold_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_quartz_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_ancient_debris_large"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_debris_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "tconstruct:cobalt_ore_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "tconstruct:cobalt_ore_large"
+        }
+      ],
+      "FLUID_SPRINGS": [],
+      "VEGETAL_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_lava"
+        }
+      ]
+    },
+    "carver": {
+      "AIR": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:nether_cave"
+        }
+      ]
+    },
+    "spawner_data": {
+      "spawners": {
+        "monster": [
+          {
+            "type": "minecraft:skeleton",
+            "weight": 20,
+            "minCount": 5,
+            "maxCount": 5
+          },
+          {
+            "type": "minecraft:ghast",
+            "weight": 50,
+            "minCount": 4,
+            "maxCount": 4
+          },
+          {
+            "type": "minecraft:enderman",
+            "weight": 1,
+            "minCount": 4,
+            "maxCount": 4
+          }
+        ],
+        "creature": [
+          {
+            "type": "minecraft:strider",
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 2
+          }
+        ],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+      },
+      "spawn_costs": {
+        "minecraft:skeleton": {
+          "energy_budget": 0.15,
+          "charge": 0.7
+        },
+        "minecraft:ghast": {
+          "energy_budget": 0.15,
+          "charge": 0.7
+        },
+        "minecraft:enderman": {
+          "energy_budget": 0.15,
+          "charge": 0.7
+        },
+        "minecraft:strider": {
+          "energy_budget": 0.15,
+          "charge": 0.7
+        }
+      }
+    }
+  }
+}

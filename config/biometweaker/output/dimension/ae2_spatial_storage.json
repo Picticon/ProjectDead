@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "ae2:spatial_storage",
+  "dimension": {
+    "type": "ae2:spatial_storage",
+    "generator": {
+      "type": "ae2:spatial_storage"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+craftingTable.addShaped("t4",<item:the_dead_forest:dead_log>, [[<item:kubejs:deadsand>,<item:kubejs:deadsand>,<item:minecraft:air>,[<item:kubejs:deadsand>,<item:kubejs:poop>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]);]);

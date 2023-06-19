@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "ae2:charged_quartz",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 16,
+  "update_interval": 4,
+  "defaul_loot_table": "ae2:entities/charged_quartz",
+  "size": {
+    "height": 0.2,
+    "width": 0.2,
+    "fixed": false
+  }
+}

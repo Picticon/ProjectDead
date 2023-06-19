@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "tconstruct:earth_geode",
+  "worldgen/placed_feature": {
+    "feature": "tconstruct:earth_geode",
+    "placement": [
+      {
+        "chance": 128,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 6
+          },
+          "max_inclusive": {
+            "above_bottom": 54
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

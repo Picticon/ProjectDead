@@ -1,0 +1,149 @@
+{
+    "temperature": 1.2,
+    "downfall": 0,
+    "precipitation": "none",
+    "category": "desert",
+    "creature_spawn_probability": 0.5,
+    "effects": {
+        "sky_color": 7907327,
+        "fog_color": 12638463,
+        "water_color": 4159204,
+        "water_fog_color": 329011,
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        }
+    },
+    "spawners": {
+        "monster": [
+            {
+                "type": "graveyard:skeleton_creeper",
+                "weight": 4,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "graveyard:revenant",
+                "weight": 6,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "graveyard:ghoul",
+                "weight": 6,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "graveyard:acolyte",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "graveyard:nightmare",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "workspacedead:skeletonspider",
+                "weight": 4,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "workspacedead:skeletonslime",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "workspacedead:skeletoncow",
+                "weight": 5,
+                "minCount": 3,
+                "maxCount": 5
+            },
+            {
+                "type": "workspacedead:skeletonchicken",
+                "weight": 5,
+                "minCount": 3,
+                "maxCount": 5
+            },
+            {
+                "type": "workspacedead:skeletonsheep",
+                "weight": 5,
+                "minCount": 3,
+                "maxCount": 5
+            },
+            {
+                "type": "workspacedead:skeletonpig",
+                "weight": 5,
+                "minCount": 3,
+                "maxCount": 5
+            },
+            {
+                "type": "minecraft:skeleton_horse",
+                "weight": 5,
+                "minCount": 3,
+                "maxCount": 5
+            },
+            {
+                "type": "thermal:basalz",
+                "weight": 0,
+                "minCount": 0,
+                "maxCount": 0
+            },
+            {
+                "type": "thermal:blitz",
+                "weight": 0,
+                "minCount": 0,
+                "maxCount": 0
+            },
+            {
+                "type": "thermal:blizz",
+                "weight": 0,
+                "minCount": 0,
+                "maxCount": 0
+            }
+        ],
+        "creature": [],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [
+            "minecraft:fossil_upper",
+            "minecraft:fossil_lower"
+        ],
+        [],
+        [],
+        [
+            "minecraft:clay_in_dirt",
+            "minecraft:gravel_in_dirt",
+            "minecraft:sand_in_dirt"
+        ],
+        [],
+        [
+            "workspacedead:deadtree_placed"
+        ],
+        []
+    ]
+}

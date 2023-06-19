@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "immersivepetroleum:reservoir",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "immersivepetroleum:reservoir"
+  }
+}

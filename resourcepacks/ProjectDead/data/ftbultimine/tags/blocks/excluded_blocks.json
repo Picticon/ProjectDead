@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "workspacedead:deadsand",
+            "required": false
+        },
+        {
+            "id": "workspacedead:deaddirt",
+            "required": false
+        },
+        {
+            "id": "workspacedead:deadlog",
+            "required": false
+        },
+        {
+            "id": "workspacedead:deadgravel",
+            "required": false
+        },
+        {
+            "id": "workspacedead:deadstone",
+            "required": false
+        }
+    ]
+}

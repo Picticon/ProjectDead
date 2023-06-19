@@ -1,0 +1,235 @@
+
+{
+  "registry_name": "minecraft:basalt_deltas",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 2.0,
+    "downfall": 0.0,
+    "category": "nether",
+    "effects": {
+      "mood_sound": {
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.basalt_deltas.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "minecraft:music.nether.basalt_deltas",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:white_ash"
+        },
+        "probability": 0.118093334
+      },
+      "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+      "sky_color": 7254527,
+      "fog_color": 6840176,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "features": {
+      "RAW_GENERATION": [],
+      "LAKES": [],
+      "LOCAL_MODIFICATIONS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "tconstruct:ichor_geode"
+        }
+      ],
+      "UNDERGROUND_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_deep"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_2_deep"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:rogue_spawner"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:rogue_spawner_deep"
+        }
+      ],
+      "SURFACE_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:delta"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:small_basalt_columns"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:large_basalt_columns"
+        }
+      ],
+      "STRONGHOLDS": [],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersivepetroleum:reservoir"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:nickel"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:mineral_veins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:deep_nickel"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:bauxite"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:silver"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:uranium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:lead"
+        }
+      ],
+      "UNDERGROUND_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:basalt_blobs"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:blackstone_blobs"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_delta"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_fire"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_soul_fire"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:glowstone_extra"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:glowstone"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:brown_mushroom_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:red_mushroom_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_magma"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_closed_double"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_gold_deltas"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_quartz_deltas"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_ancient_debris_large"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_debris_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "tconstruct:cobalt_ore_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "tconstruct:cobalt_ore_large"
+        }
+      ]
+    },
+    "carver": {
+      "AIR": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:nether_cave"
+        }
+      ]
+    },
+    "spawner_data": {
+      "spawners": {
+        "monster": [
+          {
+            "type": "minecraft:ghast",
+            "weight": 40,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "minecraft:magma_cube",
+            "weight": 100,
+            "minCount": 2,
+            "maxCount": 5
+          }
+        ],
+        "creature": [
+          {
+            "type": "minecraft:strider",
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 2
+          }
+        ],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+      },
+      "spawn_costs": {}
+    }
+  }
+}

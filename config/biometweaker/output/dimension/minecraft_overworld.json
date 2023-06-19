@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:overworld",
+  "dimension": {
+    "type": "minecraft:overworld",
+    "generator": {
+      "biome_source": {
+        "biome": "minecraft:deadland",
+        "type": "minecraft:fixed"
+      },
+      "seed": 0,
+      "settings": "minecraft:overworld",
+      "type": "minecraft:noise"
+    }
+  }
+}

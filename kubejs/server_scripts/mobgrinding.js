@@ -1,0 +1,32 @@
+onEvent('recipes', event => {
+    // moved to draconic injectors:
+    //  event.shaped('projectdead:widget_mobgrinding', ['ABC', 'BDB', 'CBA'], { C: 'minecraft:redstone', D: 'minecraft:diamond', B: 'minecraft:bone', A: 'minecraft:obsidian' });
+    event.remove({ output: 'mob_grinding_utils:fan_upgrade_width' });
+    event.shaped('4x mob_grinding_utils:fan_upgrade_width', ['A A', 'CBC', 'A A'], { A: 'minecraft:iron_ingot', B: 'projectdead:widget_mobgrinding', C: 'minecraft:feather' });
+    event.remove({ output: 'mob_grinding_utils:fan_upgrade_height' });
+    event.shaped('4x mob_grinding_utils:fan_upgrade_height', ['ACA', ' B ', 'ACA'], { A: 'minecraft:iron_ingot', B: 'projectdead:widget_mobgrinding', C: 'minecraft:feather' });
+    event.remove({ output: 'mob_grinding_utils:fan_upgrade_speed' });
+    event.shaped('mob_grinding_utils:fan_upgrade_speed', ['AB ', 'BCB', ' BA'], { B: 'minecraft:iron_ingot', C: 'projectdead:widget_mobgrinding', A: 'minecraft:feather' });
+    event.remove({ output: 'mob_grinding_utils:absorption_hopper' });
+    event.shaped('mob_grinding_utils:absorption_hopper', [' A ', 'BCB', 'CDC'], { D: 'minecraft:hopper', A: 'minecraft:ender_pearl', B: 'projectdead:widget_mobgrinding', C: 'minecraft:obsidian' });
+    event.remove({ output: 'mob_grinding_utils:absorption_upgrade' });
+    event.shaped('mob_grinding_utils:absorption_upgrade', ['ABA', 'BCB', 'DED'], { B: 'minecraft:ender_pearl', E: 'minecraft:hopper', C: 'minecraft:redstone', A: 'projectdead:widget_mobgrinding', D: 'minecraft:obsidian' });
+    event.remove({ output: 'mob_grinding_utils:saw_upgrade_looting' });
+    event.shaped('mob_grinding_utils:saw_upgrade_looting', ['ABA', 'BCB', 'ABA'], { B: 'minecraft:lapis_block', A: 'projectdead:widget_mobgrinding', C: 'minecraft:gold_block' });
+    event.remove({ output: 'mob_grinding_utils:saw_upgrade_fire' });
+    event.shaped('mob_grinding_utils:saw_upgrade_fire', ['ABA', 'BCB', 'ABA'], { A: 'projectdead:widget_mobgrinding', B: 'minecraft:flint_and_steel', C: 'minecraft:gold_block' });
+    event.remove({ output: 'mob_grinding_utils:saw_upgrade_sharpness' });
+    event.shaped('mob_grinding_utils:saw_upgrade_sharpness', ['ABA', 'BCB', 'ABA'], { B: 'minecraft:iron_sword', A: 'projectdead:widget_mobgrinding', C: 'minecraft:gold_block' });
+    event.remove({ output: 'mob_grinding_utils:saw_upgrade_arthropod' });
+    event.shaped('mob_grinding_utils:saw_upgrade_arthropod', ['ABA', 'BCB', 'ABA'], { B: 'minecraft:cobweb', A: 'projectdead:widget_mobgrinding', C: 'minecraft:gold_block' });
+    event.remove({ output: 'mob_grinding_utils:saw_upgrade_smite' });
+    event.shaped('mob_grinding_utils:saw_upgrade_smite', ['ABA', 'BCB', 'ABA'], { B: 'minecraft:bone', A: 'projectdead:widget_mobgrinding', C: 'minecraft:gold_block' });
+    event.remove({ output: 'mob_grinding_utils:saw_upgrade_beheading' });
+    event.shaped('mob_grinding_utils:saw_upgrade_beheading', ['ABA', 'BCB', 'ABA'], { B: 'minecraft:iron_helmet', A: 'projectdead:widget_mobgrinding', C: 'minecraft:gold_block' });
+    event.remove({ output: 'mob_grinding_utils:saw' });
+    event.shaped('mob_grinding_utils:saw', ['ABA', 'CDC', 'BEB'], { D: 'minecraft:redstone_block', E: 'minecraft:iron_block', A: 'minecraft:iron_sword', B: 'projectdead:widget_mobgrinding', C: 'mob_grinding_utils:spikes' });
+    event.remove({ output: 'mob_grinding_utils:fan' });
+    event.shaped('mob_grinding_utils:fan', ['ABA', 'BCB', 'ABA'], { C: 'minecraft:redstone_block', A: 'minecraft:stone_slab', B: 'projectdead:widget_mobgrinding' });
+    event.remove({ output: 'mob_grinding_utils:entity_conveyor' });
+    event.shaped('6x mob_grinding_utils:entity_conveyor', ['ABA', 'CDC', 'CBC'], { C: 'minecraft:iron_ingot', D: 'minecraft:redstone', B: '#forge:slimeballs', A: 'projectdead:widget_mobgrinding' });
+});

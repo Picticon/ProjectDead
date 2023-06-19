@@ -1,0 +1,20 @@
+[
+    {
+        "dimension": "minecraft:overworld",
+        "mob": [
+            "thermalfoundation:blitz",
+            "thermalfoundation:blizz",
+            "thermalfoundation:basalz"
+        ],
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": [
+            "thermal:blitz",
+            "thermal:blizz",
+            "thermal:basalz"
+        ],
+        "result": "deny"
+    }
+]

@@ -1,0 +1,39 @@
+
+{
+  "registry_name": "tconstruct:sky_slime_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "random_height": 4,
+      "can_double_height": true,
+      "has_vines": false,
+      "planted": true,
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "tconstruct:skyroot_log"
+        },
+        "type": "tconstruct:supplier_state_provider"
+      },
+      "leaves_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "tconstruct:sky_slime_leaves"
+        },
+        "type": "tconstruct:supplier_state_provider"
+      },
+      "vines_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "tconstruct:supplier_state_provider"
+      },
+      "base_height": 5
+    },
+    "type": "tconstruct:slime_tree"
+  }
+}

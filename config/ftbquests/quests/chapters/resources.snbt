@@ -1,0 +1,900 @@
+{
+	id: "0021D1C500829DDF"
+	group: ""
+	order_index: 1
+	filename: "resources"
+	title: "Resources"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -17.0d
+			y: -14.0d
+			dependencies: ["2ECF660296C359A7"]
+			id: "1EEE43E7E90B2AC1"
+			tasks: [{
+				id: "1AFC72BEA76D4F6C"
+				type: "item"
+				item: "minecraft:egg"
+			}]
+		}
+		{
+			x: -15.75d
+			y: -14.0d
+			dependencies: ["2ECF660296C359A7"]
+			id: "3AD5A0F03488F09A"
+			tasks: [{
+				id: "7B287A138E5C7BA5"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+		}
+		{
+			title: "Purification"
+			icon: "workspacedead:weakpurifycrystal"
+			x: -16.48214285714286d
+			y: -15.520408163265309d
+			shape: "square"
+			description: ["Use your purification crystal to convert corrupted blocks and animals."]
+			dependencies: ["6C92755E075EE83A"]
+			size: 2.0d
+			id: "2ECF660296C359A7"
+			tasks: [{
+				id: "3C950D4F7E795843"
+				type: "advancement"
+				advancement: "workspacedead:purification"
+				criterion: ""
+			}]
+		}
+		{
+			x: -13.25d
+			y: -14.0d
+			description: [
+				"Hitting an iron golem with a dirty sword (or anything with the Dead Inside effect) will cause it to drop iron poop."
+				"You craft iron ingots from the dropped poop."
+				""
+				"Note that an iron golem is healed by a campfire."
+			]
+			dependencies: ["29F30CD1DC777264"]
+			id: "339310B1C5EC9A68"
+			tasks: [{
+				id: "2B2822583DAF81E7"
+				type: "item"
+				item: "workspacedead:golempoop"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -14.0d
+			description: [
+				"Build a golem out of bones and poop. You can then transform it into an iron golem using your purification crystal."
+				""
+				"If you spawn it inside a fenced area and place hoppers under to collect drops, it will make gathering iron much easier."
+			]
+			dependencies: ["2ECF660296C359A7"]
+			id: "29F30CD1DC777264"
+			tasks: [
+				{
+					id: "4FEDD31DBE20E6C7"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 4L
+				}
+				{
+					id: "7147F8E52ED49B56"
+					type: "item"
+					item: "workspacedead:carvedpoopblock"
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -10.5d
+			dependencies: ["2D5F3230EC72D629"]
+			id: "4EAC755C3B84EF39"
+			tasks: [{
+				id: "784D77770B775382"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 9L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -17.0d
+			dependencies: ["2ECF660296C359A7"]
+			id: "569E69F70B2EC833"
+			tasks: [{
+				id: "1C45454583091342"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -16.0d
+			dependencies: ["2ECF660296C359A7"]
+			id: "377F8412649F940D"
+			tasks: [{
+				id: "4892B295CC540C78"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -15.0d
+			dependencies: ["2ECF660296C359A7"]
+			id: "4BFB06972D8CFE3D"
+			tasks: [{
+				id: "1AD707D969E8AC65"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -8.5d
+			dependencies: ["7975F7500F9663A1"]
+			id: "52B866400BD48DA0"
+			tasks: [{
+				id: "02DE955A6C18AB61"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -16.25d
+			dependencies: [
+				"569E69F70B2EC833"
+				"4BFB06972D8CFE3D"
+				"377F8412649F940D"
+			]
+			id: "1E6B61CF6F80D49E"
+			tasks: [{
+				id: "5FE67FB7268722D7"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -14.0d
+			dependencies: ["339310B1C5EC9A68"]
+			id: "3831EFC836E0768D"
+			tasks: [{
+				id: "1BCB8BCE1BA48CB7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -15.0d
+			dependencies: ["7DDC278181F4E30B"]
+			id: "19F192110D81073C"
+			tasks: [{
+				id: "59CD2484317D43D4"
+				type: "item"
+				item: "exnihilosequentia:flint_mesh"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -15.0d
+			dependencies: ["4BFB06972D8CFE3D"]
+			id: "7DDC278181F4E30B"
+			tasks: [{
+				id: "44D11F7CDFE4EB73"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -15.0d
+			dependencies: ["71010AF3CBCB7648"]
+			id: "32974249B55017B2"
+			tasks: [{
+				id: "620F1561931E9F33"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -8.5d
+			dependencies: ["68FEC4B37DB3FCA1"]
+			id: "3FCC29DB0192DFA7"
+			tasks: [{
+				id: "3E00F3A1648ADBA5"
+				type: "item"
+				item: "minecraft:yellow_dye"
+			}]
+		}
+		{
+			x: -18.25d
+			y: -10.5d
+			dependencies: ["519BE9A5E1116AAF"]
+			id: "2D5F3230EC72D629"
+			tasks: [{
+				id: "626ED732BBD3C8B1"
+				type: "item"
+				item: "projectdead:reddeadstone"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -7.5d
+			dependencies: ["21DE449EBDBFACF0"]
+			id: "60673FC5BD5A5408"
+			tasks: [{
+				id: "2AA5FAF907FF1C42"
+				type: "item"
+				item: "projectdead:bluedeadstone"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -8.5d
+			dependencies: ["3FCC29DB0192DFA7"]
+			id: "7975F7500F9663A1"
+			tasks: [{
+				id: "5CC78DCBC91049A5"
+				type: "item"
+				item: "projectdead:yellowdeadstone"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -7.5d
+			dependencies: ["68FEC4B37DB3FCA1"]
+			id: "21DE449EBDBFACF0"
+			tasks: [{
+				id: "6109D1CC1A0A3313"
+				type: "item"
+				item: "minecraft:blue_dye"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -7.5d
+			shape: "gear"
+			dependencies: ["60673FC5BD5A5408"]
+			id: "235E06B3CF8C684B"
+			tasks: [{
+				id: "604142F0779F2045"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -13.0d
+			shape: "pentagon"
+			dependencies: ["459C14FA36534465"]
+			optional: true
+			id: "232F870285E7439B"
+			tasks: [
+				{
+					id: "0698642A6ABC6847"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "561532BE94DE61AD"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:stripped_oak_wood"
+						}
+					}
+				}
+				{
+					id: "3C05F77F3F2619A6"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "tconstruct:smeltery_controller"
+				Count: 1b
+				tag: {
+					texture: "tconstruct:seared_bricks"
+				}
+			}
+			x: -8.25d
+			y: -16.25d
+			dependencies: [
+				"32974249B55017B2"
+				"64BB12B4A2C65B91"
+			]
+			id: "2CA445BA11FAFE72"
+			tasks: [
+				{
+					id: "12DAA564AE39C655"
+					type: "item"
+					title: "Smeltery Controller"
+					item: {
+						id: "tconstruct:smeltery_controller"
+						Count: 1b
+						tag: {
+							texture: "tconstruct:seared_bricks"
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "59DB40159F39559D"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_drain"
+						Count: 1b
+						tag: {
+							texture: "tconstruct:seared_bricks"
+						}
+					}
+				}
+				{
+					id: "7B2D824E23F1EF4D"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "1C5308EA2CC896DF"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "51488E5BF8EC2402"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "122C96CBDC1E09A0"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -16.25d
+			dependencies: ["1E6B61CF6F80D49E"]
+			id: "64BB12B4A2C65B91"
+			tasks: [{
+				id: "4F25E084116AF6F3"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+		{
+			x: -10.75d
+			y: -15.0d
+			dependencies: [
+				"19F192110D81073C"
+				"3831EFC836E0768D"
+			]
+			id: "1E735E7921315C28"
+			tasks: [{
+				id: "251C7700E20F7CFF"
+				type: "item"
+				item: "exnihilosequentia:iron_mesh"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -15.0d
+			dependencies: ["1E735E7921315C28"]
+			id: "71010AF3CBCB7648"
+			tasks: [{
+				id: "085DE80E8F8DE209"
+				type: "item"
+				item: "exnihilosequentia:copper_pieces"
+				count: 4L
+			}]
+		}
+		{
+			x: -13.25d
+			y: -10.5d
+			dependencies: [
+				"68FEC4B37DB3FCA1"
+				"4F9ADA2FF0F330B3"
+			]
+			id: "16FF91A00ED06C85"
+			tasks: [{
+				id: "29D7AEAA36745C36"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -11.75d
+			dependencies: ["7E14A9C5530798EF"]
+			id: "69456834B888A27B"
+			tasks: [{
+				id: "037EAAECCEE8A33E"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -10.0d
+			dependencies: ["16FF91A00ED06C85"]
+			id: "1EF0C9115223F907"
+			tasks: [{
+				id: "2189274F1E5CD4E6"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: -10.75d
+			y: -9.5d
+			dependencies: ["1EF0C9115223F907"]
+			id: "759AD15DF337E212"
+			tasks: [{
+				id: "6A8178438144A8E5"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -9.5d
+			dependencies: ["759AD15DF337E212"]
+			id: "5A45EA0A4DE56F52"
+			tasks: [{
+				id: "0CC7AA3DDBC0642A"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: -10.75d
+			y: -10.5d
+			dependencies: ["1EF0C9115223F907"]
+			id: "3A76B8BEB5BEAD98"
+			tasks: [{
+				id: "19C72E1E900068DE"
+				type: "item"
+				item: "botania:livingwood_log"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -10.5d
+			dependencies: ["3A76B8BEB5BEAD98"]
+			id: "30A234C2FFA230A2"
+			tasks: [{
+				id: "26210C84ED523FE8"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -11.0d
+			description: [
+				"This requires 1/4 of a pool of mana. Remember that Endoflames can burn poop as well as charcoal and sticks."
+				""
+				"You will need to place a compost pile under the mana pool as the catalyst."
+			]
+			dependencies: [
+				"30A234C2FFA230A2"
+				"69456834B888A27B"
+				"5A45EA0A4DE56F52"
+			]
+			id: "02CD403A65932611"
+			tasks: [
+				{
+					id: "68DEEECE0B806796"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+				{
+					id: "32BAA2581890A05A"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7C03BD59E913360E"
+				type: "item"
+				item: "botania:overgrowth_seed"
+				count: 3
+			}]
+		}
+		{
+			x: -10.75d
+			y: -8.0d
+			dependencies: [
+				"52B866400BD48DA0"
+				"235E06B3CF8C684B"
+			]
+			id: "4B07C91166BA172B"
+			tasks: [{
+				id: "2C1FB86111C72C7F"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.0d
+			dependencies: ["572113029DEE2FFC"]
+			id: "2985EBB1D99BBC48"
+			tasks: [{
+				id: "7E762F5659316F4D"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.25d
+			y: -8.0d
+			dependencies: [
+				"15E3D851E81C11EE"
+				"08CCD921DE1F4BBD"
+			]
+			id: "572113029DEE2FFC"
+			tasks: [{
+				id: "2327B3CC9D590700"
+				type: "item"
+				item: "minecraft:gunpowder"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -8.5d
+			dependencies: ["4B07C91166BA172B"]
+			id: "08CCD921DE1F4BBD"
+			tasks: [{
+				id: "57538A1E998F89AA"
+				type: "item"
+				item: "thermal:sulfur_dust"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.5d
+			dependencies: ["4B07C91166BA172B"]
+			id: "15E3D851E81C11EE"
+			tasks: [
+				{
+					id: "1F1960B68278E339"
+					type: "item"
+					item: "thermal:niter_dust"
+				}
+				{
+					id: "442CE35C8686D952"
+					type: "item"
+					item: "mekanism:dust_charcoal"
+				}
+				{
+					id: "5EFEE646918BF78E"
+					type: "item"
+					item: "bloodmagic:plantoil"
+				}
+			]
+		}
+		{
+			x: -8.25d
+			y: -9.5d
+			dependencies: ["5A45EA0A4DE56F52"]
+			id: "2F78A0EC440A2668"
+			tasks: [
+				{
+					id: "7E48438EEAB66AF8"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "321C33832D130C71"
+					type: "item"
+					item: "botania:mana_powder"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -9.5d
+			dependencies: ["2985EBB1D99BBC48"]
+			id: "4484CFEA28318C51"
+			tasks: [{
+				id: "34535B178743E8DA"
+				type: "item"
+				item: "graveyard:dark_iron_ingot"
+			}]
+		}
+		{
+			x: -6.75d
+			y: -12.5d
+			dependencies: [
+				"4484CFEA28318C51"
+				"02CD403A65932611"
+				"2F78A0EC440A2668"
+				"093F0AC8399D94E7"
+			]
+			id: "3F3FAA482BAD25B7"
+			tasks: [{
+				id: "09B1305CA0682A31"
+				type: "item"
+				item: "summoningrituals:altar"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -12.5d
+			shape: "gear"
+			dependencies: ["3F3FAA482BAD25B7"]
+			size: 2.0d
+			id: "0DD0D3112065DA50"
+			tasks: [{
+				id: "12DA84EF12193BA0"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -14.75d
+			dependencies: ["2CA445BA11FAFE72"]
+			id: "093F0AC8399D94E7"
+			tasks: [{
+				id: "3D4B244902FE05D4"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+		}
+		{
+			x: -16.482142857142854d
+			y: -8.053571428571423d
+			shape: "square"
+			dependencies: ["6C92755E075EE83A"]
+			size: 2.0d
+			id: "68FEC4B37DB3FCA1"
+			tasks: [{
+				id: "23C9AA3863718E15"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+		}
+		{
+			x: -15.75d
+			y: -10.5d
+			dependencies: ["4EAC755C3B84EF39"]
+			id: "25A1164916B6207A"
+			tasks: [{
+				id: "77E9ABBA80C26D7C"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: -18.25d
+			y: -9.25d
+			dependencies: ["68FEC4B37DB3FCA1"]
+			id: "519BE9A5E1116AAF"
+			tasks: [{
+				id: "579B3A1C62A8B0D2"
+				type: "item"
+				item: "minecraft:red_dye"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -9.5d
+			shape: "gear"
+			dependencies: [
+				"7975F7500F9663A1"
+				"1EF0C9115223F907"
+			]
+			id: "59A756C4E59BA3D9"
+			tasks: [{
+				id: "2E66B450197DB9F0"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -10.5d
+			dependencies: ["25A1164916B6207A"]
+			id: "4F9ADA2FF0F330B3"
+			tasks: [{
+				id: "36145F9B86F62461"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -13.0d
+			shape: "pentagon"
+			dependencies: ["3831EFC836E0768D"]
+			optional: true
+			id: "459C14FA36534465"
+			tasks: [{
+				id: "580AF2F7EC46924F"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -17.5d
+			shape: "pentagon"
+			dependencies: ["157AD283E53DE7FC"]
+			id: "69D94676A2B14A5A"
+			tasks: [{
+				id: "54AE1A2B40EA06D1"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -17.5d
+			dependencies: ["569E69F70B2EC833"]
+			id: "157AD283E53DE7FC"
+			tasks: [{
+				id: "67F57A25251FF0C2"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+		}
+		{
+			x: -10.75d
+			y: -11.75d
+			description: [
+				"Place charcoal blocks around a pure daisy and wait."
+				""
+				"You may want big charcoal production. Remember an easy way to get logs is to grow trees in bonsai pots."
+			]
+			dependencies: ["16FF91A00ED06C85"]
+			id: "7E14A9C5530798EF"
+			tasks: [{
+				id: "190EF5087989EB99"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -16.0d
+			shape: "pentagon"
+			dependencies: ["093F0AC8399D94E7"]
+			optional: true
+			id: "648C08775FDCE067"
+			tasks: [{
+				id: "6E478D1BB8063AFE"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:rose_gold_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -14.0d
+			shape: "pentagon"
+			dependencies: ["637FC42A62D17703"]
+			optional: true
+			id: "7D129B2A07119529"
+			tasks: [
+				{
+					id: "7709E8EB95349454"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+				}
+				{
+					id: "1187D6A4F8019688"
+					type: "item"
+					item: "botania:lexicon"
+				}
+			]
+		}
+		{
+			x: -10.75d
+			y: -14.0d
+			dependencies: ["1E735E7921315C28"]
+			id: "637FC42A62D17703"
+			tasks: [
+				{
+					id: "063CADED7384C4DF"
+					type: "item"
+					item: "exnihilosequentia:sugarcane_seeds"
+				}
+				{
+					id: "7FEA2D7EA18A32D9"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+			]
+		}
+		{
+			x: -15.75d
+			y: -13.0d
+			shape: "pentagon"
+			dependencies: ["3AD5A0F03488F09A"]
+			optional: true
+			id: "39C9750FD7F5DED3"
+			tasks: [{
+				id: "07A3DEF6861A16CD"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: -5.75d
+			y: -8.0d
+			shape: "pentagon"
+			dependencies: ["2985EBB1D99BBC48"]
+			optional: true
+			id: "76B2423D0DFEA1DB"
+			tasks: [{
+				id: "1B9DC8B911FA6101"
+				type: "item"
+				item: "bloodmagic:lavasigil"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -13.0d
+			shape: "pentagon"
+			description: ["With access to a bucket, scoop some lava and water and make a cobble generator."]
+			dependencies: ["3831EFC836E0768D"]
+			optional: true
+			id: "11E467FEEBB6E297"
+			tasks: [{
+				id: "38FF34CB0E1E9D82"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

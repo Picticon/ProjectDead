@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "tconstruct:ichor_slime_fungus",
+  "worldgen/configured_feature": {
+    "config": {
+      "hat_state": {
+        "Name": "tconstruct:ichor_slime_leaves"
+      },
+      "decor_state": {
+        "Name": "tconstruct:ichor_congealed_slime"
+      },
+      "planted": false,
+      "valid_base": "tconstruct:slimy_soil",
+      "stem_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "tconstruct:bloodshroom_log"
+      }
+    },
+    "type": "tconstruct:slime_fungus"
+  }
+}

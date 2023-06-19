@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "tconstruct:ender_geode",
+  "worldgen/placed_feature": {
+    "feature": "tconstruct:ender_geode",
+    "placement": [
+      {
+        "chance": 256,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 16
+          },
+          "max_inclusive": {
+            "above_bottom": 64
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

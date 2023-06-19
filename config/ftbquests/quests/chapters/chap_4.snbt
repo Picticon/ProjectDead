@@ -1,0 +1,725 @@
+{
+	id: "5E6D685B252A0E4E"
+	group: ""
+	order_index: 3
+	filename: "chap_4"
+	title: "The Nether, The End"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 7.0d
+			y: -0.5d
+			shape: "gear"
+			dependencies: [
+				"39E3E49CE2B2468E"
+				"661EC3F740E45F85"
+				"7596A13EEF88FE9D"
+				"1B1E85DBE888BD45"
+				"2A76992B4A8A4C5E"
+				"3DD175B71AAE8362"
+			]
+			size: 2.0d
+			id: "7EDF0D0523DCE9CE"
+			tasks: [{
+				id: "0A5FD24506D941A5"
+				type: "item"
+				item: "workspacedead:purifycrystal"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -1.5d
+			dependencies: [
+				"74F0E2728C7231D5"
+				"1E735E7921315C28"
+			]
+			id: "1B1E85DBE888BD45"
+			tasks: [{
+				id: "5AC7FFC00A79104C"
+				type: "item"
+				item: "minecraft:spruce_sapling"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -2.75d
+			dependencies: [
+				"77C580A33BE60A33"
+				"377F8412649F940D"
+				"769AB95DAB34E3C3"
+			]
+			id: "74F0E2728C7231D5"
+			tasks: [{
+				id: "492A0F976E0E4A9F"
+				type: "item"
+				item: "minecraft:podzol"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 0.25d
+			dependencies: ["0D67C76564BA02BD"]
+			id: "2A76992B4A8A4C5E"
+			tasks: [{
+				id: "5517F9711AD5FB59"
+				type: "item"
+				title: "Any #minecraft:fishes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:fishes"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: [
+				"13B470DDCC31E866"
+				"690AEB097DDD6526"
+			]
+			id: "3DD175B71AAE8362"
+			tasks: [{
+				id: "612CD643DAAAACCE"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+		}
+		{
+			x: 5.25d
+			y: 0.25d
+			dependencies: ["37C7211DA34999A4"]
+			id: "39E3E49CE2B2468E"
+			tasks: [{
+				id: "55CE1ED52EFB676F"
+				type: "item"
+				item: "minecraft:glistering_melon_slice"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -1.5d
+			dependencies: ["690AEB097DDD6526"]
+			id: "661EC3F740E45F85"
+			tasks: [{
+				id: "2EEA705A2647C9DE"
+				type: "item"
+				item: "minecraft:rose_bush"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.75d
+			dependencies: ["533A3EBC894CDB3F"]
+			id: "7596A13EEF88FE9D"
+			tasks: [{
+				id: "78DC3B919A16E62B"
+				type: "item"
+				item: "minecraft:dried_kelp_block"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.75d
+			shape: "square"
+			id: "13B470DDCC31E866"
+			tasks: [{
+				id: "11385CF9F29EC502"
+				type: "item"
+				item: "minecraft:dead_bush"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 1.5d
+			shape: "square"
+			dependencies: [
+				"7E442E56AAB52999"
+				"0486F6D63981C7A6"
+			]
+			id: "0D67C76564BA02BD"
+			tasks: [{
+				id: "329090C3AC0EC771"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.25d
+			y: 0.0d
+			dependencies: ["690AEB097DDD6526"]
+			id: "37C7211DA34999A4"
+			tasks: [{
+				id: "5051BEDA26404E5E"
+				type: "item"
+				item: "minecraft:melon"
+			}]
+		}
+		{
+			x: -8.042857142857144d
+			y: 0.22500000000000142d
+			shape: "square"
+			size: 2.0d
+			id: "119044804ABD4480"
+			tasks: [{
+				id: "77E13B24CD19CA9A"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -1.75d
+			dependencies: ["119044804ABD4480"]
+			id: "05864067C713FC4B"
+			tasks: [{
+				id: "38D06C028F650509"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -0.75d
+			dependencies: ["119044804ABD4480"]
+			id: "6D3F9A1EA85900EE"
+			tasks: [{
+				id: "25A3678DE4E7B167"
+				type: "item"
+				item: "workspacedead:dragonpoop"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.75d
+			dependencies: ["6D3F9A1EA85900EE"]
+			id: "38E3CAB30211961D"
+			tasks: [
+				{
+					id: "11A1CFCA17B349C3"
+					type: "item"
+					item: "draconicevolution:draconium_dust"
+				}
+				{
+					id: "79B4216ED226B6B7"
+					type: "item"
+					item: "draconicevolution:draconium_ingot"
+				}
+			]
+		}
+		{
+			x: -1.25d
+			y: 0.25d
+			dependencies: ["62AA73D6992DB736"]
+			id: "2566B5CD574A46B8"
+			tasks: [
+				{
+					id: "3C122AC1ADAB39FB"
+					type: "item"
+					item: "draconicevolution:basic_crafting_injector"
+				}
+				{
+					id: "4FA2BB76B8FE5999"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.25d
+			dependencies: [
+				"38E3CAB30211961D"
+				"2E74CF29E0AE7B95"
+			]
+			id: "62AA73D6992DB736"
+			tasks: [{
+				id: "37BE4E30F69DFA5A"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 2.25d
+			shape: "pentagon"
+			dependencies: ["2566B5CD574A46B8"]
+			optional: true
+			id: "4FDC7FFD4A3F5DD6"
+			tasks: [{
+				id: "2B32381B496BACC9"
+				type: "item"
+				item: "projectdead:widget_mobgrinding"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["4FDC7FFD4A3F5DD6"]
+			optional: true
+			id: "2FAE941D63DAD445"
+			tasks: [{
+				id: "0F4C041A8C34D6D1"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["4FDC7FFD4A3F5DD6"]
+			optional: true
+			id: "6EF75D03A80EBD71"
+			tasks: [{
+				id: "3D69FA600A27B171"
+				type: "item"
+				item: "mob_grinding_utils:fan"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -1.0d
+			dependencies: ["62AA73D6992DB736"]
+			id: "58F4C4339596AA11"
+			tasks: [{
+				id: "166FB7B3659F7B43"
+				type: "item"
+				item: "draconicevolution:generator"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 2.25d
+			dependencies: ["2566B5CD574A46B8"]
+			id: "1921170B6E23543C"
+			tasks: [{
+				id: "0ABB8F1A42D43923"
+				type: "item"
+				item: "projectdead:widget_drawers"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.25d
+			shape: "pentagon"
+			dependencies: [
+				"1921170B6E23543C"
+				"3FA78D1219D74835"
+			]
+			optional: true
+			id: "23FD1E2E14104904"
+			tasks: [{
+				id: "0809E8BC6198502F"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 0.25d
+			dependencies: [
+				"58F4C4339596AA11"
+				"2566B5CD574A46B8"
+				"6273BF2F710A72A1"
+			]
+			id: "07B4304244668B15"
+			tasks: [{
+				id: "16A4A94A5313B1C3"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.25d
+			description: ["Note: All poop must be of the same type."]
+			dependencies: ["07B4304244668B15"]
+			id: "690AEB097DDD6526"
+			tasks: [{
+				id: "0F9CE9F84831B068"
+				type: "item"
+				item: "projectdead:singularity_poop"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.25d
+			shape: "pentagon"
+			dependencies: ["3C2505CC8D95C86D"]
+			optional: true
+			id: "69CDEAE04DC2716E"
+			tasks: [
+				{
+					id: "0D7F125CCD8276E7"
+					type: "item"
+					item: "draconicadditions:inert_potato_helm"
+				}
+				{
+					id: "08AF55C6E64263AD"
+					type: "item"
+					item: "draconicadditions:inert_potato_chest"
+				}
+				{
+					id: "5E9E40B94D6E8400"
+					type: "item"
+					item: "draconicadditions:inert_potato_legs"
+				}
+				{
+					id: "78E32875F6CC6374"
+					type: "item"
+					item: "draconicadditions:inert_potato_boots"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.25d
+			shape: "pentagon"
+			dependencies: [
+				"69CDEAE04DC2716E"
+				"2566B5CD574A46B8"
+			]
+			optional: true
+			id: "6E656CDE41956F36"
+			tasks: [
+				{
+					id: "110604AA16F76558"
+					type: "item"
+					item: {
+						id: "workspacedead:potato_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E330516FAB353F4"
+					type: "item"
+					item: {
+						id: "workspacedead:potato_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2928818D3CCAC374"
+					type: "item"
+					item: {
+						id: "workspacedead:potato_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5417378509050FE4"
+					type: "item"
+					item: {
+						id: "workspacedead:potato_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.25d
+			shape: "pentagon"
+			dependencies: ["1921170B6E23543C"]
+			optional: true
+			id: "62BD9E1F94768037"
+			tasks: [{
+				id: "247ED62A8EAF02D0"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.25d
+			dependencies: ["05C3D2C5EFDEFAEE"]
+			id: "52FD81340107A696"
+			tasks: [
+				{
+					id: "261893A5F933AB8D"
+					type: "item"
+					item: "workspacedead:potato_portal_catalyst"
+				}
+				{
+					id: "38EA842223108D58"
+					type: "item"
+					item: "workspacedead:potato_block"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.75d
+			dependencies: ["07B4304244668B15"]
+			id: "05C3D2C5EFDEFAEE"
+			tasks: [{
+				id: "553C01DD0E82D833"
+				type: "item"
+				item: "projectdead:singularity_potato"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["52FD81340107A696"]
+			id: "26E1E2122CD3DCE2"
+			tasks: [{
+				id: "7307391A1A0326BF"
+				type: "dimension"
+				dimension: "workspacedead:potatodim"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.25d
+			shape: "pentagon"
+			dependencies: ["1921170B6E23543C"]
+			optional: true
+			id: "68411F7BC4E4A447"
+			tasks: [{
+				id: "40050060189321D2"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -2.75d
+			dependencies: ["690AEB097DDD6526"]
+			id: "533A3EBC894CDB3F"
+			tasks: [{
+				id: "24AAC4E52707497A"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.25d
+			dependencies: [
+				"569E69F70B2EC833"
+				"58F4C4339596AA11"
+			]
+			id: "6970BBBF0D3CA70E"
+			tasks: [{
+				id: "5BF3A25393F681C2"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["6970BBBF0D3CA70E"]
+			id: "34FA07D626C73771"
+			tasks: [{
+				id: "76BD92B80BEA2AE2"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 0.25d
+			dependencies: ["119044804ABD4480"]
+			id: "5001E8516AD275C9"
+			tasks: [{
+				id: "5104F64D97091117"
+				type: "item"
+				item: "workspacedead:ender_rod"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.25d
+			dependencies: ["5001E8516AD275C9"]
+			id: "2E74CF29E0AE7B95"
+			tasks: [{
+				id: "1EAE429A06A9412C"
+				type: "item"
+				item: "workspacedead:ender_dust"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 1.25d
+			dependencies: ["119044804ABD4480"]
+			id: "1FF27E53A5D0EF46"
+			tasks: [{
+				id: "2084BC896953F6B3"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+			rewards: [{
+				id: "33824FD02A6FD35D"
+				type: "item"
+				item: "chickens:catcher"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.25d
+			dependencies: ["1FF27E53A5D0EF46"]
+			id: "1941092793324B0F"
+			tasks: [{
+				id: "32402FABACC04733"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:quartz_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.25d
+			shape: "pentagon"
+			dependencies: ["1941092793324B0F"]
+			optional: true
+			id: "7AB41F1FC1D34A95"
+			tasks: [
+				{
+					id: "6B37C819B75CE680"
+					type: "item"
+					item: "chickens:roost"
+				}
+				{
+					id: "68C30E1718C96F11"
+					type: "item"
+					item: "chickens:breeder"
+				}
+			]
+		}
+		{
+			x: -3.75d
+			y: 1.25d
+			dependencies: ["1941092793324B0F"]
+			id: "3FA78D1219D74835"
+			tasks: [{
+				id: "32ED1908AD0A034F"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			title: "Rotten Potato"
+			x: 3.0d
+			y: 5.25d
+			shape: "hexagon"
+			subtitle: "A mean little dude, but quite handy if properly handled."
+			description: [
+				"Feeding rotten flesh to a grassy potato will corrupt it. The rotten potato will then seek out farmland and convert it to monster spawning blocks."
+				""
+				"Rotten potatoes are aggressive and will attack you. Wearing a full suit of grassy potato armor will prevent this."
+				""
+				"A farmland spawning block will only work in darkness. It will spawn monsters that are native to the area. Monsters will only last for a short time before despawning."
+			]
+			size: 1.5d
+			optional: true
+			id: "33710F2D9CB5D95C"
+			tasks: [{
+				id: "2870C9494D730B7F"
+				type: "observation"
+				icon: "minecraft:poisonous_potato"
+				timer: 0L
+				observe_type: 5
+				to_observe: "workspacedead:rottenpotato"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -3.25d
+			dependencies: [
+				"3FA78D1219D74835"
+				"6970BBBF0D3CA70E"
+			]
+			id: "5EB350EF11F0A85B"
+			tasks: [{
+				id: "230FD3EC7C5411B8"
+				type: "item"
+				item: "powah:energizing_rod_starter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.25d
+			dependencies: ["6970BBBF0D3CA70E"]
+			id: "55E7916026FCB3B2"
+			tasks: [{
+				id: "61C94F2FF188021B"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -3.25d
+			dependencies: [
+				"5EB350EF11F0A85B"
+				"55E7916026FCB3B2"
+			]
+			id: "6273BF2F710A72A1"
+			tasks: [{
+				id: "4C47573D095D71CE"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.25d
+			shape: "pentagon"
+			dependencies: ["4FDC7FFD4A3F5DD6"]
+			optional: true
+			id: "748FFBA1EAE5A078"
+			tasks: [{
+				id: "33975C7DE06F0098"
+				type: "item"
+				item: "mob_grinding_utils:absorption_hopper"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			shape: "pentagon"
+			dependencies: ["690AEB097DDD6526"]
+			optional: true
+			id: "1F5AA4C4AE8A3AA5"
+			tasks: [{
+				id: "0713D5767CA32318"
+				type: "item"
+				item: "workspacedead:mrhanky_block"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

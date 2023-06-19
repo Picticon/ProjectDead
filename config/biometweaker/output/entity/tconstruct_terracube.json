@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "tconstruct:terracube",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 8,
+  "update_interval": 3,
+  "defaul_loot_table": "tconstruct:entities/terracube",
+  "size": {
+    "height": 2.04,
+    "width": 2.04,
+    "fixed": false
+  }
+}

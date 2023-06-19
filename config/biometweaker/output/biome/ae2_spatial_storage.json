@@ -1,0 +1,98 @@
+
+{
+  "registry_name": "ae2:spatial_storage",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "category": "none",
+    "effects": {
+      "sky_color": 1118481,
+      "fog_color": 0,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "features": {
+      "RAW_GENERATION": [],
+      "LAKES": [],
+      "LOCAL_MODIFICATIONS": [],
+      "UNDERGROUND_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_deep"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_2"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:boss_dungeon_2_deep"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:rogue_spawner"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "apotheosis:rogue_spawner_deep"
+        }
+      ],
+      "SURFACE_STRUCTURES": [],
+      "STRONGHOLDS": [],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersivepetroleum:reservoir"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:nickel"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:mineral_veins"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:deep_nickel"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:bauxite"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:silver"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:uranium"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "immersiveengineering:lead"
+        }
+      ]
+    },
+    "carver": {},
+    "spawner_data": {
+      "creature_spawn_probability": 0.0,
+      "spawners": {
+        "monster": [],
+        "creature": [],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+      },
+      "spawn_costs": {}
+    }
+  }
+}

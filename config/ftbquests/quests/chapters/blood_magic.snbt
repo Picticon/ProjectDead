@@ -1,0 +1,91 @@
+{
+	id: "075FB3730EBCD148"
+	group: ""
+	order_index: 5
+	filename: "blood_magic"
+	title: "Blood Magic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: -4.5d
+			id: "1DBC8FC3A1D026FB"
+			tasks: [{
+				id: "4E552C8900FCD213"
+				type: "item"
+				item: "bloodmagic:demonwillgauge"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -6.5d
+			id: "019CE261316281C4"
+			tasks: [{
+				id: "664FF3314FACF39F"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -5.25d
+			id: "6C633E1072F1E5C7"
+			tasks: [{
+				id: "6195641A583AE356"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -6.5d
+			id: "6DCDF8D4DF3295A8"
+			tasks: [{
+				id: "3C2D807EEE9228CC"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -12.75d
+			y: -5.75d
+			id: "538C42077A7F456B"
+			tasks: [{
+				id: "7C888976F4B20811"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: -11.75d
+			y: -4.25d
+			id: "7DF1CB15275717A1"
+			tasks: [
+				{
+					id: "31072DD4FC79132F"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+				}
+				{
+					id: "6E1FBD0472548759"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,47 @@
+
+{
+  "registry_name": "tconstruct:ender_slime_island_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "random_height": 4,
+      "can_double_height": false,
+      "has_vines": true,
+      "planted": false,
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "tconstruct:greenheart_log"
+        },
+        "type": "tconstruct:supplier_state_provider"
+      },
+      "leaves_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "tconstruct:ender_slime_leaves"
+        },
+        "type": "tconstruct:supplier_state_provider"
+      },
+      "vines_provider": {
+        "state": {
+          "Properties": {
+            "west": "false",
+            "up": "false",
+            "stage": "middle",
+            "south": "false",
+            "north": "false",
+            "east": "false"
+          },
+          "Name": "tconstruct:ender_slime_vine"
+        },
+        "type": "tconstruct:supplier_state_provider"
+      },
+      "base_height": 5
+    },
+    "type": "tconstruct:slime_tree"
+  }
+}

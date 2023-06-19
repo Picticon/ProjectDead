@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "tconstruct:sky_geode",
+  "worldgen/placed_feature": {
+    "feature": "tconstruct:sky_geode",
+    "placement": [
+      {
+        "chance": 64,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 16
+          },
+          "max_inclusive": {
+            "absolute": 54
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

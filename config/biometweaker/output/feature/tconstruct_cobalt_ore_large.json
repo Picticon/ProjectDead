@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "tconstruct:cobalt_ore_large",
+  "worldgen/placed_feature": {
+    "feature": "tconstruct:cobalt_ore_small",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 8
+          },
+          "max_inclusive": {
+            "absolute": 32
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

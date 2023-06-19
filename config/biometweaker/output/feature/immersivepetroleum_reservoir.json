@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "immersivepetroleum:reservoir",
+  "worldgen/placed_feature": {
+    "feature": "immersivepetroleum:reservoir",
+    "placement": []
+  }
+}

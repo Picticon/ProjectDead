@@ -1,0 +1,13 @@
+{
+    "name": "Poop",
+    "colors": [
+        "aa7733",
+        "885522"
+    ],
+    "materialCount": 100,
+    "inUltimateSingularity": false,
+    "ingredient": {
+        "tag": "workspacedead:poop"
+    },
+    "enabled": false
+}
