@@ -7,7 +7,7 @@ onEvent('recipes', event => {
             { "item": "botania:white_double_flower" }
         ],
         "drops": [
-            {
+             {
                 "rolls": 1,
                 "chance": 0.1,
                 "result": {
