@@ -1,0 +1,12 @@
+{
+  "generateDefaultTypes": false,
+  "autoGenerateCreeperTypesFromOreTags": false,
+  "explosionMultiplier": 0.25,
+  "poweredExplosionMultiplier": 0.5,
+  "explosionsGenerateOres": true,
+  "overrideOreDrops": false,
+  "creepersAttractedToArmourStand": true,
+  "disableSentry": false,
+  "nonHostileWhenTamed": false,
+  "forceAirBlock": false
+}

@@ -1,7 +1,7 @@
 {
 	id: "4730A11F02FDEC1E"
 	group: ""
-	order_index: 2
+	order_index: 3
 	filename: "life_2"
 	title: "Get to the Nether"
 	default_quest_shape: ""
@@ -26,26 +26,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -6.0d
-			shape: "square"
-			description: [
-				"This will require a tier 3 Blood Magic altar."
-				"Having specialized runes will help, but are not required."
-			]
-			dependencies: ["0DD0D3112065DA50"]
-			size: 2.0d
-			id: "3446014A9612B426"
-			tasks: [{
-				id: "58371B3F510CBEDE"
-				type: "item"
-				item: "projectdead:purified_flesh"
-			}]
-		}
-		{
 			x: -1.5d
 			y: -7.5d
-			dependencies: ["561B59E35A4B4AA4"]
 			id: "124FB50B52C9C7C7"
 			tasks: [{
 				id: "4D0F1F76725C8107"
@@ -54,90 +36,14 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -7.5d
-			dependencies: ["616E5A1AB2921BAC"]
-			id: "22BF8066F52339FF"
-			tasks: [{
-				id: "02F71FABD1BD27EF"
-				type: "item"
-				item: "minecraft:mycelium"
-			}]
-		}
-		{
-			x: -2.75d
-			y: -7.5d
-			dependencies: ["22BF8066F52339FF"]
-			id: "561B59E35A4B4AA4"
-			tasks: [{
-				id: "02CE252234ECB422"
-				type: "item"
-				item: "exnihilosequentia:oak_barrel"
-			}]
-		}
-		{
-			x: -5.25d
-			y: -7.5d
-			description: [
-				"Take purified flesh and click on a compost pile to obtain mushrooms."
-				""
-				"NOTE: JEI and Lychee does not correctly display the compost block in the recipe."
-			]
-			dependencies: ["3446014A9612B426"]
-			id: "616E5A1AB2921BAC"
-			tasks: [{
-				id: "5112AD1F3E640C97"
-				type: "item"
-				item: "minecraft:brown_mushroom"
-			}]
-		}
-		{
-			x: -5.25d
-			y: -4.5d
-			dependencies: ["3446014A9612B426"]
-			id: "1771317FA9902750"
-			tasks: [
-				{
-					id: "6B666FE726246E2F"
-					type: "item"
-					item: "naturesaura:gold_fiber"
-				}
-				{
-					id: "1C231405F22627A6"
-					type: "item"
-					item: "naturesaura:gold_leaf"
-				}
-				{
-					id: "167395F49CE33E9F"
-					type: "item"
-					item: "naturesaura:gold_powder"
-				}
-			]
-		}
-		{
 			x: -0.25d
 			y: -7.5d
-			dependencies: [
-				"124FB50B52C9C7C7"
-				"59A756C4E59BA3D9"
-			]
+			dependencies: ["124FB50B52C9C7C7"]
 			id: "35038ECD2DC7D193"
 			tasks: [{
 				id: "56C7B0E7BDC4EE2F"
 				type: "item"
 				item: "spirit:soul_powder"
-			}]
-		}
-		{
-			x: -4.0d
-			y: -5.25d
-			dependencies: ["1771317FA9902750"]
-			id: "49D5EED2E3C5EB92"
-			tasks: [{
-				id: "11D7C9B33990DD67"
-				type: "item"
-				item: "naturesaura:wood_stand"
-				count: 8L
 			}]
 		}
 		{
@@ -154,7 +60,6 @@
 		{
 			x: -1.5d
 			y: -4.5d
-			dependencies: ["6DB57B3A88AE2D6D"]
 			id: "5DFFB2B21770B8ED"
 			tasks: [
 				{
@@ -183,50 +88,10 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -3.75d
-			dependencies: ["1771317FA9902750"]
-			id: "2D05C02CD4C107BF"
-			tasks: [
-				{
-					id: "7E17BF951D6E09E3"
-					type: "item"
-					item: "naturesaura:bottle_two_the_rebottling"
-				}
-				{
-					id: "40577FE8BA0673A3"
-					type: "item"
-					item: {
-						id: "naturesaura:aura_bottle"
-						Count: 1b
-						tag: {
-							stored_type: "naturesaura:overworld"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -2.75d
-			y: -4.5d
-			dependencies: [
-				"49D5EED2E3C5EB92"
-				"2D05C02CD4C107BF"
-			]
-			id: "6DB57B3A88AE2D6D"
-			tasks: [{
-				id: "60B209A63B713557"
-				type: "item"
-				item: "naturesaura:token_joy"
-			}]
-		}
-		{
 			x: 1.0d
 			y: -6.0d
 			dependencies: [
 				"2871D537740A7624"
-				"2F78A0EC440A2668"
-				"243DE7AB9A299C0A"
 				"35038ECD2DC7D193"
 			]
 			id: "18704F7A9FB8BAA4"
@@ -237,68 +102,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -7.5d
-			dependencies: ["2F78A0EC440A2668"]
-			id: "21ABDBC557574B57"
-			tasks: [{
-				id: "55DA82D2954D98F8"
-				type: "item"
-				item: "botania:rune_water"
-			}]
-		}
-		{
-			x: 2.0d
-			y: -4.5d
-			dependencies: [
-				"572113029DEE2FFC"
-				"2F78A0EC440A2668"
-			]
-			id: "27007DCAE9389F93"
-			tasks: [{
-				id: "178D0AC87BDFF8C8"
-				type: "item"
-				item: "botania:rune_fire"
-			}]
-		}
-		{
-			x: 4.0d
-			y: -4.5d
-			dependencies: [
-				"2F78A0EC440A2668"
-				"7E442E56AAB52999"
-			]
-			id: "046C1693EC791B76"
-			tasks: [{
-				id: "61BEC1596C8D49E4"
-				type: "item"
-				item: "botania:rune_air"
-			}]
-		}
-		{
-			x: 4.0d
-			y: -7.5d
-			dependencies: [
-				"2F78A0EC440A2668"
-				"616E5A1AB2921BAC"
-			]
-			id: "0F173A8B39A4C17F"
-			tasks: [{
-				id: "0E33CC0903B406F9"
-				type: "item"
-				item: "botania:rune_earth"
-			}]
-		}
-		{
 			x: 3.0d
 			y: -6.0d
-			dependencies: [
-				"046C1693EC791B76"
-				"27007DCAE9389F93"
-				"18704F7A9FB8BAA4"
-				"0F173A8B39A4C17F"
-				"21ABDBC557574B57"
-			]
+			dependencies: ["18704F7A9FB8BAA4"]
 			id: "33F76728C84DBE76"
 			tasks: [
 				{

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 18,
+        "discard_chance_on_air_exposure": 0,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "workspacedead:deadstone"
+                },
+                "state": {
+                    "Name": "workspacedead:deadore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "workspacedead:deadslate"
+                },
+                "state": {
+                    "Name": "workspacedead:deadore"
+                }
+            }
+        ]
+    }
+}

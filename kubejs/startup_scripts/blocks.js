@@ -1,17 +1,4 @@
 onEvent('block.registry', event => {
-    event.create('projectdead:reddeadstone')
-        .material('stone')
-        .tagBlock('minecraft:mineable/pickaxe')
-        .displayName('Red Dead Stone');
-    event.create('projectdead:yellowdeadstone')
-        .material('stone')
-        .tagBlock('minecraft:mineable/pickaxe')
-        .displayName('Yellow Dead Stone');
-    event.create('projectdead:bluedeadstone')
-        .material('stone')
-        .tagBlock('minecraft:mineable/pickaxe')
-        .displayName('Blue Dead Stone');
-
     // event.create('projectdead:thermalfoodblock')
     //     .material('wood')
     //     .tagBlock('minecraft:mineable/axe')

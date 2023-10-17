@@ -1,0 +1,82 @@
+{
+	id: "02DA0CBA54400C2B"
+	group: ""
+	order_index: 0
+	filename: "introduction"
+	title: "Introduction"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Show Optional Quest Hints"
+			icon: "minecraft:ender_eye"
+			x: -9.75d
+			y: -5.25d
+			subtitle: "This will show additional help along the way."
+			optional: true
+			id: "3B36A915BC45D63D"
+			tasks: [{
+				id: "12E39D4A07C36281"
+				type: "checkmark"
+				title: "Show Optional Hint Quests"
+			}]
+			rewards: [{
+				id: "1C5D12679DFAA4AF"
+				type: "command"
+				auto: "invisible"
+				exclude_from_claim_all: true
+				ignore_reward_blocking: true
+				command: "/ftbquests change_progress @p reset 105A32431E9B8A74"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.75d
+			y: -3.75d
+			description: ["While Ultimine is present, it will not work on dead blocks."]
+			id: "529E936E1875C0C0"
+			tasks: [{
+				id: "23B9F57AD05E13AA"
+				type: "checkmark"
+				title: "Ultimine"
+			}]
+		}
+		{
+			title: "Hide Optional Quest Hints"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "cyclic:blind"
+				}
+			}
+			x: -8.5d
+			y: -5.25d
+			subtitle: "Completing this will remove the additional quest help tasks."
+			optional: true
+			id: "105A32431E9B8A74"
+			tasks: [{
+				id: "36A5C740EBE6D633"
+				type: "checkmark"
+				title: "Hide Suggestions"
+			}]
+			rewards: [{
+				id: "1BF14A103148ADF0"
+				type: "command"
+				auto: "invisible"
+				exclude_from_claim_all: true
+				ignore_reward_blocking: true
+				command: "/ftbquests change_progress @p reset 3B36A915BC45D63D"
+				player_command: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

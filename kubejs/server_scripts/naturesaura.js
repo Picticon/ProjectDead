@@ -65,6 +65,6 @@ onEvent('recipes', event => {
         "time": 300
     });
 
-    event.shaped('8x naturesaura:gold_powder', [' A ', 'ABA', ' A '], { A: 'minecraft:glowstone_dust', B: 'naturesaura:gold_powder' });
+    event.shaped('32x naturesaura:gold_powder', ['CAC', 'ABA', 'CAC'], { A: 'minecraft:glowstone_dust', B: 'naturesaura:gold_powder', C: 'minecraft:gold_nugget' });
     event.shaped('naturesaura:gold_fiber', [' A ', 'ABA', ' A '], { B: 'naturesaura:gold_powder', A: 'minecraft:string' });
 });

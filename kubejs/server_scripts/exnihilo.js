@@ -1,8 +1,7 @@
 onEvent('recipes', event => {
-    event.remove({ type: "exnihilosequentia:sieve" });
     event.recipes.exnihilosequentia.sieve('minecraft:dirt', 'minecraft:carrot')
         .addRoll(.5, 'string');
-    event.recipes.exnihilosequentia.sieve('minecraft:gravel', 'exnihilosequentia:copper_pieces')
+    event.recipes.exnihilosequentia.sieve('minecraft:gravel', 'exnihilosequentia:gold_pieces')
         .addRoll(1, 'iron')
         .addRoll(.5, 'diamond')
         .addRoll(.5, 'emerald')
@@ -42,18 +41,6 @@ onEvent('recipes', event => {
     event.recipes.exnihilosequentia.crook('workspacedead:deadleaves')
         .addDrop('workspacedead:deadsapling', 1, .75);
 
-    event.recipes.exnihilosequentia.hammer('projectdead:reddeadstone')
-        .addDrop('minecraft:redstone', 1, 1)
-        .addDrop('minecraft:redstone', 2, .25)
-        .addDrop('minecraft:redstone', 2, .1);
-    event.recipes.exnihilosequentia.hammer('projectdead:bluedeadstone')
-        .addDrop('minecraft:lapis_lazuli', 1, 1)
-        .addDrop('minecraft:lapis_lazuli', 2, .25)
-        .addDrop('minecraft:lapis_lazuli', 2, .1);
-    event.recipes.exnihilosequentia.hammer('projectdead:yellowdeadstone')
-        .addDrop('thermal:gold_dust', 1, 1)
-        .addDrop('thermal:gold_dust', 2, .25)
-        .addDrop('thermal:gold_dust', 2, .1);
     event.recipes.exnihilosequentia.hammer('mekanism:block_charcoal')
         .addDrop('mekanism:dust_charcoal', 9, 1)
 

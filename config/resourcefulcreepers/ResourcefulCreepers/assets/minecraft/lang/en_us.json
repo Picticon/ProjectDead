@@ -1,0 +1,11 @@
+{
+  "entity.resourcefulcreepers.emerald_ore": "Emerald Creeper",
+  "entity.resourcefulcreepers.coal_ore": "Coal Creeper",
+  "entity.resourcefulcreepers.iron_ore": "Iron Creeper",
+  "entity.resourcefulcreepers.quartz_ore_creeper": "Quartz Creeper",
+  "entity.resourcefulcreepers.copper_ore": "Copper Creeper",
+  "entity.resourcefulcreepers.lapis_ore": "Lapis Creeper",
+  "entity.resourcefulcreepers.gold_ore": "Gold Creeper",
+  "entity.resourcefulcreepers.diamond_ore": "Diamond Creeper",
+  "entity.resourcefulcreepers.redstone_ore": "Redstone Creeper"
+}

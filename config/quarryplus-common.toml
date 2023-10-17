@@ -26,6 +26,9 @@
 	#The range limit(unit: blocks) of ChunkDestroyer. Set -1 or 0 to remove limitation.
 	#Range: > -1
 	chunkDestroyerLimit = -1
+	#The max distance(unit: blocks) Flexible Marker can reach
+	#Range: 16 ~ 4096
+	flexMarkerMaxDistance = 256
 
 #QuarryPlus Machines. Set true to enable machine or item.
 [machines]
@@ -51,6 +54,7 @@
 	solid_fuel_quarry = true
 	spawner_controller = false
 	workbench = true
+	repeat_tick_module = false
 
 #Power settings of each machines
 [powers]

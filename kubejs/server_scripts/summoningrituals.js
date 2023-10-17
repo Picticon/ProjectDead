@@ -20,6 +20,32 @@ onEvent('recipes', (event) => {
         .input('minecraft:glowstone')
         .recipeTime(150)
 
+    event.recipes.summoningrituals
+        .altar('bloodmagic:soulsnare') //catalyst
+        .mobOutput(SummoningOutput.mob('minecraft:guardian').count(2).offset(0, 4, 0))
+        .input('#minecraft:fishes')
+        .input('#minecraft:fishes')
+        .input('#minecraft:fishes')
+        .input('#minecraft:fishes')
+        .input('minecraft:water_bucket')
+        .input('bloodmagic:basemonstersoul')
+        .recipeTime(150)
+
+
+
+    event.recipes.summoningrituals
+        .altar('bloodmagic:soulsnare') //catalyst
+        .mobOutput(SummoningOutput.mob('minecraft:zombifiedpiglin').count(4).offset(0, 4, 0))
+        .input('minecraft:obsidian')
+        .input('minecraft:obsidian')
+        .input('minecraft:obsidian')
+        .input('minecraft:obsidian')
+        .input('minecraft:flint_and_steel')
+        .input('bloodmagic:basemonstersoul')
+        .recipeTime(150)
+
+    event.shapeless('workspacedead:weakpurifycrystal', ['minecraft:flint_and_steel', '4x minecraft:obsidian']);
+
     // //piglin
     // event.recipes.summoningrituals
     //     .altar('soulshards:vile_dust') //catalyst

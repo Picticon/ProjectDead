@@ -1,7 +1,7 @@
 {
 	id: "5E6D685B252A0E4E"
 	group: ""
-	order_index: 3
+	order_index: 4
 	filename: "chap_4"
 	title: "The Nether, The End"
 	default_quest_shape: ""
@@ -30,10 +30,7 @@
 		{
 			x: 8.75d
 			y: -1.5d
-			dependencies: [
-				"74F0E2728C7231D5"
-				"1E735E7921315C28"
-			]
+			dependencies: ["74F0E2728C7231D5"]
 			id: "1B1E85DBE888BD45"
 			tasks: [{
 				id: "5AC7FFC00A79104C"
@@ -44,11 +41,6 @@
 		{
 			x: 8.75d
 			y: -2.75d
-			dependencies: [
-				"77C580A33BE60A33"
-				"377F8412649F940D"
-				"769AB95DAB34E3C3"
-			]
 			id: "74F0E2728C7231D5"
 			tasks: [{
 				id: "492A0F976E0E4A9F"
@@ -136,10 +128,6 @@
 			x: 8.75d
 			y: 1.5d
 			shape: "square"
-			dependencies: [
-				"7E442E56AAB52999"
-				"0486F6D63981C7A6"
-			]
 			id: "0D67C76564BA02BD"
 			tasks: [{
 				id: "329090C3AC0EC771"
@@ -356,7 +344,6 @@
 			x: 0.0d
 			y: 3.25d
 			shape: "pentagon"
-			dependencies: ["3C2505CC8D95C86D"]
 			optional: true
 			id: "69CDEAE04DC2716E"
 			tasks: [
@@ -520,10 +507,7 @@
 		{
 			x: -2.5d
 			y: -2.25d
-			dependencies: [
-				"569E69F70B2EC833"
-				"58F4C4339596AA11"
-			]
+			dependencies: ["58F4C4339596AA11"]
 			id: "6970BBBF0D3CA70E"
 			tasks: [{
 				id: "5BF3A25393F681C2"

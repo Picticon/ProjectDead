@@ -1,7 +1,7 @@
 {
 	id: "338989AFE968E2BB"
 	group: ""
-	order_index: 0
+	order_index: 1
 	filename: "getting_started"
 	title: "Purification Shard"
 	icon: "workspacedead:deadcookie"
@@ -9,72 +9,40 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: "workspacedead:poop"
-			x: -1.75d
-			y: -6.75d
-			subtitle: "Eww. This is gross. But it might be a way to bring life back to this dead corrupted world."
-			description: [""]
-			dependencies: ["7316E9A89F0F9BF7"]
-			id: "769AB95DAB34E3C3"
+			x: -7.25d
+			y: -6.25d
+			id: "398C80DCB591C6FE"
 			tasks: [{
-				id: "3403CCCF2FDD9977"
+				id: "7875771EC3E6AB8F"
 				type: "item"
-				item: "workspacedead:poop"
+				item: "workspacedead:deadcookie"
 			}]
 		}
 		{
-			x: -5.0d
-			y: -4.875d
-			shape: "square"
-			subtitle: "This looks like it might have been sand at some point."
-			description: ["Not much else to see. Might as well grab some."]
-			size: 1.5d
-			id: "7FECAB7DA5CA8171"
+			x: -7.25d
+			y: -5.0d
+			dependencies: ["398C80DCB591C6FE"]
+			id: "55B8CCB9472245C8"
 			tasks: [{
-				id: "61D6B9D245341DD0"
-				type: "item"
-				item: "workspacedead:deadsand"
-				count: 4L
-			}]
-		}
-		{
-			title: "Something to Eat"
-			x: -1.25d
-			y: -7.75d
-			shape: "pentagon"
-			subtitle: "How are these better than cookies made from sand?!?"
-			description: [
-				"It doesn't look very tasty, but try to imagine it is made of nutella."
-				"You can also just rush to real food and skip this part."
-			]
-			dependencies: ["769AB95DAB34E3C3"]
-			optional: true
-			id: "67623748C2498AC1"
-			tasks: [{
-				id: "00087BDA1EB4EAC7"
+				id: "6D50DFFC4439A30A"
 				type: "item"
 				item: "workspacedead:dirtybread"
 			}]
 		}
 		{
-			title: "Life Infuser"
 			icon: "bloodmagic:altar"
-			x: -1.5d
-			y: -0.25d
-			description: ["Making a Blood Altar will allow you to infuse your life into everything that is dead."]
-			dependencies: [
-				"3A65118BBA4B87D4"
-				"069711A487606D48"
-			]
-			id: "50CC5301D86B5AA9"
+			x: -7.25d
+			y: -3.75d
+			dependencies: ["55B8CCB9472245C8"]
+			id: "6245AA85020C78AD"
 			tasks: [
 				{
-					id: "7AD72449694D7C66"
+					id: "4A5AFFBAF77869E1"
 					type: "item"
 					item: "bloodmagic:altar"
 				}
 				{
-					id: "245661BF4C8A3221"
+					id: "402EA3CEA5AA190A"
 					type: "item"
 					item: {
 						id: "bloodmagic:sacrificialdagger"
@@ -85,688 +53,388 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 0.75d
-			shape: "square"
-			subtitle: "Wait, how can a skeleton be dead?"
-			description: ["The infected in the world will drop corruption that will be helpful for crafting."]
-			size: 1.5d
-			id: "3A65118BBA4B87D4"
+			x: -7.25d
+			y: -2.5d
+			description: ["Throw a shard into dead water to make clean water."]
+			dependencies: ["6245AA85020C78AD"]
+			id: "5301ED23D9EFAA6D"
 			tasks: [{
-				id: "45A492D5F09F71E4"
+				id: "1ECA6F42234F0E98"
 				type: "item"
-				item: "graveyard:corruption"
+				item: "workspacedead:purifyshard"
 			}]
 		}
 		{
-			title: "Dirt"
-			icon: "minecraft:dirt"
-			x: -3.0d
-			y: -3.0d
-			shape: "pentagon"
-			subtitle: "Ah, dirt. So happy to see it again."
-			description: ["Dirt will be needed to grow the life required to rebuild the world."]
+			x: -8.5d
+			y: -3.75d
 			dependencies: [
-				"50CC5301D86B5AA9"
-				"46BF6A83DA82CECC"
+				"3B36A915BC45D63D"
+				"6245AA85020C78AD"
 			]
-			id: "4FFA59539DEDE0A8"
+			hide: true
+			id: "3F7797C73E9E8635"
+			tasks: [
+				{
+					id: "036BED38BE740F5A"
+					type: "item"
+					item: "bloodmagic:blankslate"
+				}
+				{
+					id: "73FD8E9327F07417"
+					type: "item"
+					item: "bloodmagic:weakbloodorb"
+				}
+				{
+					id: "756C93306EAB31C3"
+					type: "item"
+					item: "bloodmagic:blankrune"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.25d
+			dependencies: [
+				"3B36A915BC45D63D"
+				"6245AA85020C78AD"
+			]
+			hide: true
+			optional: true
+			id: "5BF4823157E39AEA"
+			tasks: [
+				{
+					id: "1F87ECB5531A222C"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "3CC3111157596047"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "7DD5918B4F9E62A6"
+					type: "item"
+					item: "minecraft:charcoal"
+				}
+				{
+					id: "7753CA27BE3F9C63"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.25d
+			dependencies: [
+				"3B36A915BC45D63D"
+				"6245AA85020C78AD"
+			]
+			hide: true
+			id: "28C5FF28122253DA"
 			tasks: [{
-				id: "74F43ECBC15D5CCE"
+				id: "33BEF0EB34D668B6"
 				type: "item"
 				item: "minecraft:dirt"
 			}]
 		}
 		{
-			title: "A Way Back"
-			x: 6.5d
-			y: -3.5d
-			shape: "gear"
-			description: ["With this concentrated life force crystal, you can purify the world. It is the beginning of saving the world."]
-			dependencies: [
-				"77C580A33BE60A33"
-				"018FA14BBBB7BD5D"
-				"7EE5D9316546ECDE"
-				"502F6C22EBA4FE0B"
-				"3C2505CC8D95C86D"
-				"5590509BAC459389"
-				"4D77AA7AD3712615"
-				"6749BFFAA575D12D"
-			]
-			size: 2.0d
-			id: "6C92755E075EE83A"
+			x: -7.25d
+			y: 0.0d
+			dependencies: ["5490EAD922FC01DB"]
+			id: "3688CE3FE1E91D0E"
 			tasks: [{
-				id: "6BF54EE1499B11D5"
+				id: "460E533754FCA204"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: [
+				"3688CE3FE1E91D0E"
+				"28C5FF28122253DA"
+				"3B36A915BC45D63D"
+			]
+			hide: true
+			optional: true
+			id: "1ACED12C03AFDACD"
+			tasks: [{
+				id: "3767E0ED2A986D2D"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 6.25d
+			dependencies: ["604ECD34F4791FFF"]
+			id: "70DB6A3782C91D6F"
+			tasks: [{
+				id: "69A4D833C9B6ACC4"
 				type: "item"
 				item: "workspacedead:weakpurifycrystal"
 			}]
 		}
 		{
-			x: 3.25d
-			y: -8.0d
-			dependencies: ["769AB95DAB34E3C3"]
-			id: "5E9848492F3D2512"
-			tasks: [
-				{
-					id: "7883E70034415302"
-					type: "item"
-					item: "workspacedead:poopblock"
-				}
-				{
-					id: "1D0B5723B0E138E4"
-					type: "item"
-					item: "workspacedead:poopblock2x"
-				}
-			]
-		}
-		{
-			icon: "minecraft:wheat"
-			x: 5.25d
-			y: -5.0d
-			dependencies: ["74E863E8433A9DA5"]
-			id: "502F6C22EBA4FE0B"
-			tasks: [
-				{
-					id: "22F796FBF4CB7DB2"
-					type: "item"
-					item: "minecraft:wheat_seeds"
-				}
-				{
-					id: "7CEA4C130A259E84"
-					type: "item"
-					item: "minecraft:wheat"
-				}
-			]
-		}
-		{
-			x: 1.75d
-			y: -6.75d
-			subtitle: "With these seeds, I will be able to bring life back to this dead world."
-			description: ["This is a rare drop from players. Keep eating dead cookies until you get one."]
-			dependencies: ["769AB95DAB34E3C3"]
-			id: "3615F48BD93A6AD8"
+			x: -7.25d
+			y: 3.75d
+			dependencies: ["683B9CCCE2823267"]
+			id: "32E72196A208B5E6"
 			tasks: [{
-				id: "04B83E5F14414EB6"
-				type: "item"
-				item: "workspacedead:seededpoop"
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.5d
-			dependencies: [
-				"243DE7AB9A299C0A"
-				"39CB24B25AD8D414"
-				"63D1D86B5BA56FA4"
-			]
-			id: "18757617DB68732B"
-			tasks: [{
-				id: "7F41BC0469DD570D"
-				type: "item"
-				item: "bloodmagic:blankrune"
-				count: 8L
-				consume_items: true
-			}]
-		}
-		{
-			x: 0.5d
-			y: 1.0d
-			dependencies: ["2CE751D7BC5A46FC"]
-			id: "63D1D86B5BA56FA4"
-			tasks: [{
-				id: "584726976082D410"
-				type: "item"
-				item: "minecraft:furnace"
-			}]
-		}
-		{
-			x: 1.75d
-			y: 1.5d
-			shape: "pentagon"
-			dependencies: ["63D1D86B5BA56FA4"]
-			id: "716DD484810F8CE0"
-			tasks: [{
-				id: "30B55217323E59C3"
-				type: "item"
-				item: "minecraft:campfire"
-			}]
-		}
-		{
-			x: 1.75d
-			y: 0.5d
-			shape: "pentagon"
-			dependencies: ["63D1D86B5BA56FA4"]
-			id: "192C9419C8CA9784"
-			tasks: [{
-				id: "0F3EE917B2EB34C0"
-				type: "item"
-				item: "minecraft:torch"
-				count: 4L
-			}]
-			rewards: [{
-				id: "363DDB1F7E0C4FA9"
-				type: "item"
-				item: "minecraft:torch"
-				count: 8
-			}]
-		}
-		{
-			x: 0.0d
-			y: -5.0d
-			subtitle: "I've created a small tool that may help me remove the corruption impregnating the world."
-			description: [
-				"This is used in several recipes."
-				"It can also be thrown into dead water to purify it. This takes a few seconds, so be patient."
-			]
-			dependencies: [
-				"769AB95DAB34E3C3"
-				"243DE7AB9A299C0A"
-			]
-			size: 2.0d
-			id: "1E2A6097171A60D2"
-			tasks: [{
-				id: "10CD55CDDF84993A"
-				type: "item"
-				item: "workspacedead:purifyshard"
-				count: 2L
-			}]
-		}
-		{
-			x: -3.0d
-			y: -6.75d
-			shape: "pentagon"
-			subtitle: "This looks like \"infection on a stick.\""
-			description: [
-				"This sword will inflict the \"Dead Inside\" effect when used."
-				"This will cause monsters and animals drop a portion of their life essence."
-			]
-			dependencies: ["769AB95DAB34E3C3"]
-			id: "05DE49D642B630F9"
-			tasks: [{
-				id: "0625A8FC91D34F0B"
-				type: "item"
-				item: {
-					id: "workspacedead:dirtysword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			icon: "workspacedead:deadsapling"
-			x: 3.5d
-			y: -2.0d
-			description: ["Break dead leaves until you get a dead sapling."]
-			dependencies: ["753BE24B1135A64D"]
-			id: "5621D39291C8ED52"
-			tasks: [{
-				id: "5A98D4F2D7A19357"
-				type: "item"
-				item: "workspacedead:deadsapling"
-			}]
-		}
-		{
-			x: 5.0d
-			y: -2.0d
-			description: [
-				"This will require a tier 2 Blood Magic altar."
-				"Specialized runes are not required, but can help."
-			]
-			dependencies: ["5621D39291C8ED52"]
-			id: "77C580A33BE60A33"
-			tasks: [{
-				id: "3516EB4E271D7D35"
+				id: "25B12CC6DECD3D33"
 				type: "item"
 				item: "minecraft:oak_sapling"
 			}]
 		}
 		{
-			title: "Knee Deep"
-			icon: "minecraft:composter"
-			x: 3.75d
-			y: -3.0d
-			shape: "pentagon"
-			description: ["Too much poop? Compost it!"]
-			id: "7321FBB9EA7989B8"
-			tasks: [
-				{
-					id: "180C1F8501605887"
-					type: "item"
-					item: "minecraft:composter"
-				}
-				{
-					id: "5B2094954710537A"
-					type: "item"
-					item: "minecraft:bone_meal"
-				}
-			]
+			x: -7.25d
+			y: 2.5d
+			dependencies: ["5E687ADBD9B4230B"]
+			id: "683B9CCCE2823267"
+			tasks: [{
+				id: "2E23F7891DF42F80"
+				type: "observation"
+				icon: "minecraft:grass_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:grass_block"
+			}]
 		}
 		{
-			x: 4.25d
-			y: -6.5d
+			x: -7.25d
+			y: 5.0d
+			dependencies: ["32E72196A208B5E6"]
+			id: "604ECD34F4791FFF"
+			tasks: [{
+				id: "4F21B95DBA5F27B3"
+				type: "item"
+				item: "minecraft:string"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 1.25d
+			dependencies: ["3688CE3FE1E91D0E"]
+			dependency_requirement: "one_completed"
+			id: "5E687ADBD9B4230B"
+			tasks: [{
+				id: "04D763120D1C11E6"
+				type: "item"
+				item: "workspacedead:grassypotato_seeds"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.75d
 			dependencies: [
-				"5E9848492F3D2512"
-				"502F6C22EBA4FE0B"
+				"3B36A915BC45D63D"
+				"3688CE3FE1E91D0E"
+				"1ACED12C03AFDACD"
 			]
-			id: "2BA4759A2704ADDE"
-			tasks: [{
-				id: "64CE1873DD5DAAFE"
-				type: "item"
-				item: "workspacedead:biomass_block"
-			}]
+			hide: true
+			optional: true
+			id: "3BB9D383C26673F7"
+			tasks: [
+				{
+					id: "6E478A30B2F8D5B2"
+					type: "item"
+					item: "workspacedead:biomass_block"
+				}
+				{
+					id: "7C4C50F0225BDF9A"
+					type: "item"
+					item: "minecraft:poisonous_potato"
+				}
+				{
+					id: "2F0E8808306B75D3"
+					type: "item"
+					item: "minecraft:potato"
+				}
+			]
 		}
 		{
-			icon: "minecraft:potato"
-			x: 6.5d
-			y: -5.5d
-			dependencies: ["49352ED22A244E26"]
-			id: "3C2505CC8D95C86D"
-			tasks: [{
-				id: "5F11371F148D6005"
-				type: "item"
-				item: "minecraft:potato"
-			}]
-		}
-		{
-			icon: "minecraft:carrot"
-			x: 6.5d
-			y: -1.5d
-			subtitle: "All that work. And all I got was a lousy carrot."
+			x: -6.0d
+			y: 2.5d
 			dependencies: [
-				"77C580A33BE60A33"
-				"63AB9333061A725C"
+				"683B9CCCE2823267"
+				"3B36A915BC45D63D"
 			]
-			id: "7EE5D9316546ECDE"
-			tasks: [{
-				id: "583978ED413291CE"
-				type: "item"
-				item: "minecraft:carrot"
-			}]
-		}
-		{
-			icon: "minecraft:pumpkin"
-			x: 4.5d
-			y: -3.5d
-			dependencies: ["63DB2ECEEDF94679"]
-			id: "4D77AA7AD3712615"
-			tasks: [{
-				id: "1AFE9BA53B1A655E"
-				type: "item"
-				item: "minecraft:pumpkin"
-			}]
-		}
-		{
-			x: 5.5d
-			y: -6.5d
-			description: ["This will require a tier 2 alter."]
-			dependencies: ["2BA4759A2704ADDE"]
-			id: "49352ED22A244E26"
-			tasks: [{
-				id: "7880B7FA6A5F1858"
-				type: "item"
-				item: "minecraft:poisonous_potato"
-			}]
-		}
-		{
-			icon: "minecraft:beetroot"
-			x: 8.0d
-			y: -2.0d
-			dependencies: ["6749BFFAA575D12D"]
-			id: "5590509BAC459389"
+			hide: true
+			optional: true
+			id: "5DBB2B14FBCC68D8"
 			tasks: [
 				{
-					id: "18B61B8B14756755"
+					id: "07B422CE93B4DB27"
 					type: "item"
-					item: "minecraft:beetroot_seeds"
+					item: "minecraft:grass"
 				}
 				{
-					id: "7DF7EB0E41AB5724"
+					id: "20C34577C25B59D7"
 					type: "item"
-					item: "minecraft:beetroot"
+					item: "projectdead:fakedeadleaves"
+				}
+				{
+					id: "2ABD1EA988AF358E"
+					type: "item"
+					item: "workspacedead:deadleaves"
+				}
+				{
+					id: "3A88216BEF151788"
+					type: "item"
+					item: "workspacedead:deadsapling"
 				}
 			]
 		}
 		{
-			x: 8.0d
-			y: -5.0d
-			dependencies: ["0823CED7DBD7A0C7"]
-			id: "018FA14BBBB7BD5D"
-			tasks: [{
-				id: "1AEE5F7984CD5DAB"
-				type: "item"
-				item: "minecraft:grass"
-			}]
+			x: -1.75d
+			y: -0.25d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "6875065DE7867AB8"
 		}
 		{
-			icon: "minecraft:poppy"
-			x: 8.5d
-			y: -3.5d
-			dependencies: ["018FA14BBBB7BD5D"]
-			id: "6749BFFAA575D12D"
-			tasks: [{
-				id: "4C8D8E18483DB927"
-				type: "item"
-				item: "minecraft:poppy"
-			}]
-		}
-		{
-			x: 6.0d
-			y: 0.0d
-			subtitle: "Sieving. Must I really do this yet again?"
-			dependencies: ["31DD65AF7F58C925"]
-			id: "63AB9333061A725C"
-			tasks: [
-				{
-					id: "252B9185BD7F12D0"
-					type: "item"
-					item: "exnihilosequentia:oak_sieve"
-				}
-				{
-					id: "3622A0768954A41F"
-					type: "item"
-					item: "exnihilosequentia:string_mesh"
-				}
-			]
-		}
-		{
-			x: 4.5d
-			y: 0.0d
-			subtitle: "I've done this many times before. This is easy."
+			x: -8.5d
+			y: -6.25d
 			dependencies: [
-				"1B4603A977ACD627"
-				"77C580A33BE60A33"
+				"3B36A915BC45D63D"
+				"398C80DCB591C6FE"
 			]
-			id: "31DD65AF7F58C925"
+			hide: true
+			optional: true
+			id: "7392AF02B28BA8DB"
 			tasks: [
 				{
-					id: "2BD70834ED6C47DB"
+					id: "32A2E252737D249D"
+					type: "item"
+					item: "workspacedead:poop"
+				}
+				{
+					id: "63C768E2E283BD42"
 					type: "item"
 					item: {
-						id: "exnihilosequentia:wooden_crook"
+						id: "workspacedead:dirtysword"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-				{
-					id: "3F495C2D044678D0"
-					type: "item"
-					item: "exnihilosequentia:silkworm"
-				}
-				{
-					id: "7E442E56AAB52999"
-					type: "item"
-					item: "minecraft:string"
-				}
 			]
 		}
 		{
-			x: 3.0d
-			y: -5.75d
+			x: -8.5d
+			y: 5.0d
 			dependencies: [
-				"3615F48BD93A6AD8"
-				"75C598A4C837454F"
+				"3B36A915BC45D63D"
+				"604ECD34F4791FFF"
 			]
-			id: "74E863E8433A9DA5"
+			hide: true
+			optional: true
+			id: "64F313DFF7B4B3CB"
 			tasks: [{
-				id: "0E67CA56367D1EDD"
+				id: "13679EC4DA63748E"
 				type: "item"
-				item: "minecraft:wheat_seeds"
+				item: "minecraft:white_bed"
 			}]
 		}
 		{
-			icon: {
-				id: "woodenbucket:wooden_bucket"
-				Count: 1b
-				tag: {
-					Fluid: {
-						FluidName: "minecraft:water"
-						Amount: 1000
-					}
-				}
-			}
-			x: 1.75d
-			y: -5.75d
-			dependencies: ["1E2A6097171A60D2"]
-			id: "75C598A4C837454F"
-			tasks: [{
-				id: "3A01FED4CFD426A1"
-				type: "advancement"
-				advancement: "workspacedead:water_cleaned"
-				criterion: ""
-			}]
-		}
-		{
-			x: 3.25d
-			y: 0.0d
-			dependencies: ["0D9D3DC56E53941C"]
-			id: "1B4603A977ACD627"
+			x: -6.0d
+			y: 5.0d
+			dependencies: [
+				"3B36A915BC45D63D"
+				"604ECD34F4791FFF"
+			]
+			hide: true
+			optional: true
+			id: "780143F952FCAC74"
 			tasks: [
 				{
-					id: "480FB8AA941E37CB"
+					id: "48E4B299577D2069"
 					type: "item"
-					item: "workspacedead:deadplanks"
+					item: "exnihilosequentia:oak_sieve"
 				}
 				{
-					id: "0486F6D63981C7A6"
+					id: "7BDB3BB7B732ED10"
 					type: "item"
-					item: "minecraft:stick"
+					item: "exnihilosequentia:string_mesh"
+				}
+				{
+					id: "22A510E3AEC961FB"
+					type: "item"
+					item: "minecraft:carrot"
 				}
 			]
 		}
 		{
-			x: 3.25d
-			y: 1.5d
-			shape: "square"
-			size: 1.5d
-			id: "0D9D3DC56E53941C"
-			tasks: [{
-				id: "7AF849A1E2C47237"
-				type: "item"
-				item: "workspacedead:deadlog"
-			}]
-		}
-		{
-			x: 7.25d
-			y: -6.75d
+			x: -8.5d
+			y: 6.25d
 			dependencies: [
-				"3C2505CC8D95C86D"
-				"5E9848492F3D2512"
+				"3B36A915BC45D63D"
+				"604ECD34F4791FFF"
 			]
-			id: "0823CED7DBD7A0C7"
-			tasks: [{
-				id: "220F9DB2BBA5AA52"
-				type: "item"
-				item: "workspacedead:grassypotato_seeds"
-			}]
-		}
-		{
-			x: 1.75d
-			y: -4.75d
-			dependencies: [
-				"1E2A6097171A60D2"
-				"4AB540ABFB10673C"
-			]
-			id: "1BF36A034A6723FF"
+			hide: true
+			optional: true
+			id: "5CDEE2FDC31BBB08"
 			tasks: [
 				{
-					id: "71E7B2E7974E26A7"
+					id: "465BD2F0720B7E3D"
 					type: "item"
 					item: "exnihilosequentia:porcelain_clay"
 				}
 				{
-					id: "47BF69CE776C6E98"
-					type: "item"
-					item: "exnihilosequentia:unfired_crucible"
-				}
-				{
-					id: "12EA38E7170452EE"
+					id: "15886CF646F6FA17"
 					type: "item"
 					item: "exnihilosequentia:fired_crucible"
 				}
+				{
+					id: "5E70621E8E6529F7"
+					type: "item"
+					item: "minecraft:pumpkin"
+				}
 			]
 		}
 		{
-			x: 3.0d
-			y: -4.75d
-			dependencies: ["1BF36A034A6723FF"]
-			id: "63DB2ECEEDF94679"
+			x: -7.25d
+			y: -1.25d
+			dependencies: ["5301ED23D9EFAA6D"]
+			id: "5490EAD922FC01DB"
 			tasks: [{
-				id: "49B6929B6BF2B8D4"
+				id: "422C680DAF552BB3"
 				type: "item"
-				item: {
-					id: "woodenbucket:wooden_bucket"
-					Count: 1b
-					tag: {
-						Fluid: {
-							FluidName: "minecraft:lava"
-							Amount: 1000
-						}
-					}
-				}
+				item: "workspacedead:poop_seeded"
 			}]
 		}
 		{
-			x: 2.0d
-			y: -0.5d
-			dependencies: ["1B4603A977ACD627"]
-			id: "2CD5BDBF30287120"
-			tasks: [{
-				id: "0500398A228181B4"
-				type: "item"
-				item: "projectdead:fakedeadleaves"
-			}]
-		}
-		{
-			x: 2.0d
-			y: -1.5d
+			x: -8.5d
+			y: 2.5d
 			dependencies: [
-				"2CD5BDBF30287120"
-				"18757617DB68732B"
+				"3B36A915BC45D63D"
+				"683B9CCCE2823267"
 			]
-			id: "753BE24B1135A64D"
+			hide: true
+			id: "0FD628CB06D891A2"
 			tasks: [{
-				id: "2333C4CBD7A6501E"
+				id: "4CF3EBAE62FB02EB"
 				type: "item"
-				item: "workspacedead:deadleaves"
+				item: "botania:fertilizer"
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.75d
-			dependencies: ["50CC5301D86B5AA9"]
-			id: "39CB24B25AD8D414"
+			x: -8.5d
+			y: 0.75d
+			dependencies: [
+				"3B36A915BC45D63D"
+				"3688CE3FE1E91D0E"
+			]
+			hide: true
+			id: "7A5D1D7A91333151"
 			tasks: [{
-				id: "0E9211EED7681A2D"
+				id: "3ABE3530E4BE5CD5"
 				type: "item"
-				item: "bloodmagic:weakbloodorb"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.0d
-			dependencies: ["50CC5301D86B5AA9"]
-			id: "2CE751D7BC5A46FC"
-			tasks: [{
-				id: "23003EAB924A9370"
-				type: "item"
-				item: "minecraft:cobblestone"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -1.125d
-			shape: "square"
-			subtitle: "Odd. It doesn't break into cobblestone when mined."
-			description: [""]
-			size: 1.5d
-			id: "069711A487606D48"
-			tasks: [{
-				id: "4490F384B1D37858"
-				type: "item"
-				item: "workspacedead:deadstone"
-			}]
-		}
-		{
-			x: 0.75d
-			y: -3.375d
-			shape: "square"
-			size: 1.5d
-			id: "4AB540ABFB10673C"
-			tasks: [{
-				id: "096B290080E05C18"
-				type: "item"
-				item: "workspacedead:deadclay"
-			}]
-		}
-		{
-			x: -3.5d
-			y: -5.0d
-			subtitle: "I'm so hungry, but there is nothing to eat. Maybe eating sand will satisfy my appetite until I can find something better."
-			description: ["Eating dead cookies will cause you to expel a small portion of your life force."]
-			dependencies: ["7FECAB7DA5CA8171"]
-			id: "7316E9A89F0F9BF7"
-			tasks: [{
-				id: "75BB346CEF635604"
-				type: "item"
-				item: "workspacedead:deadcookie"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -3.0d
-			shape: "square"
-			size: 1.5d
-			id: "46BF6A83DA82CECC"
-			tasks: [{
-				id: "06E46136FD016DE4"
-				type: "item"
-				item: "workspacedead:deaddirt"
-			}]
-		}
-		{
-			icon: "bloodmagic:blankslate"
-			x: -1.5d
-			y: -1.5d
-			dependencies: ["50CC5301D86B5AA9"]
-			id: "243DE7AB9A299C0A"
-			tasks: [{
-				id: "4659E3033A87BED3"
-				type: "item"
-				item: "bloodmagic:blankslate"
-			}]
-		}
-		{
-			x: -6.5d
-			y: -6.5d
-			description: ["While Ultimine is present, it will not work on dead blocks."]
-			id: "529E936E1875C0C0"
-			tasks: [{
-				id: "23B9F57AD05E13AA"
-				type: "checkmark"
-				title: "Ultimine"
-			}]
-		}
-		{
-			x: 4.75d
-			y: 1.25d
-			shape: "pentagon"
-			dependencies: ["31DD65AF7F58C925"]
-			id: "74ED34E204457F6D"
-			tasks: [{
-				id: "17D9758D9B9410A9"
-				type: "item"
-				title: "Any #minecraft:beds"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:beds"
-					}
-				}
+				item: "mysticalagriculture:inferium_seeds"
 			}]
 		}
 	]

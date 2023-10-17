@@ -1,0 +1,157 @@
+{
+  "creeperTypes": [
+    {
+      "name": "copper_ore",
+      "displayName": "Copper Creeper",
+      "tier": 1,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 10,
+      "allowNaturalSpawns": true,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:copper_ore",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "iron_ore",
+      "displayName": "Iron Creeper",
+      "tier": 1,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 10,
+      "allowNaturalSpawns": true,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:iron_ore",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "gold_ore",
+      "displayName": "Gold Creeper",
+      "tier": 1,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 10,
+      "allowNaturalSpawns": true,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:gold_ore",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "coal_ore",
+      "displayName": "Coal Creeper",
+      "tier": 1,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 10,
+      "allowNaturalSpawns": true,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:coal_ore",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "redstone_ore",
+      "displayName": "Redstone Creeper",
+      "tier": 2,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 10,
+      "allowNaturalSpawns": true,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:redstone_ore",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "lapis_ore",
+      "displayName": "Lapis Creeper",
+      "tier": 1,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 10,
+      "allowNaturalSpawns": true,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:lapis_ore",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "quartz_ore_creeper",
+      "displayName": "Quartz Creeper",
+      "tier": 2,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 10,
+      "allowNaturalSpawns": true,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:nether_quartz_ore",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "diamond_ore",
+      "displayName": "Diamond Creeper",
+      "tier": 2,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 20,
+      "allowNaturalSpawns": false,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:diamond_ore",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "emerald_ore",
+      "displayName": "Emerald Creeper",
+      "tier": 2,
+      "spawnEggColour1": 894731,
+      "spawnEggColour2": -1,
+      "dropItemsOnDeath": true,
+      "spawnWeight": 20,
+      "allowNaturalSpawns": false,
+      "armourValue": 0.0,
+      "itemDrops": [
+        {
+          "name": "minecraft:emerald_ore",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

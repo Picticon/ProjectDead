@@ -129,20 +129,19 @@
         [],
         [],
         [],
-        [
-            "minecraft:fossil_upper",
-            "minecraft:fossil_lower"
-        ],
+        [],
         [],
         [],
         [
             "minecraft:clay_in_dirt",
             "minecraft:gravel_in_dirt",
-            "minecraft:sand_in_dirt"
+            "minecraft:sand_in_dirt",
+            "minecraft:ore_dead"
         ],
         [],
         [
-            "workspacedead:deadtree_placed"
+            "workspacedead:deadtree_placed",
+            "minecraft:patch_deadgrass"
         ],
         []
     ]
