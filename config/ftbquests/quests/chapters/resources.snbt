@@ -19,8 +19,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: -11.75d
+			x: -18.25d
+			y: -14.0d
 			id: "27AE3A3F30D79957"
 			tasks: [{
 				id: "078FA208C511C8F3"
@@ -29,8 +29,8 @@
 			}]
 		}
 		{
-			x: -27.75d
-			y: -13.75d
+			x: -27.5d
+			y: -13.5d
 			dependencies: ["3B36A915BC45D63D"]
 			hide: true
 			id: "73C2274DB21BC2B3"
@@ -63,8 +63,8 @@
 			}]
 		}
 		{
-			x: -18.5d
-			y: -14.0d
+			x: -15.75d
+			y: -15.75d
 			id: "5E40FE8A01C2F17C"
 			tasks: [{
 				id: "2986481BA3F1FAB8"
@@ -73,8 +73,8 @@
 			}]
 		}
 		{
-			x: -19.75d
-			y: -12.5d
+			x: -17.0d
+			y: -14.25d
 			id: "62AF8B0BD66DD554"
 			tasks: [{
 				id: "2BA3BDDF4EABF0D6"
@@ -83,8 +83,8 @@
 			}]
 		}
 		{
-			x: -19.75d
-			y: -11.0d
+			x: -17.0d
+			y: -12.75d
 			id: "6E3354DBC6418C20"
 			tasks: [{
 				id: "38B6F27F264626F6"
@@ -112,8 +112,8 @@
 			]
 		}
 		{
-			x: -18.25d
-			y: -10.25d
+			x: -15.5d
+			y: -12.0d
 			id: "5F623E87036E95AA"
 			tasks: [{
 				id: "72D3D226FE053B0F"
@@ -183,8 +183,8 @@
 			}]
 		}
 		{
-			x: -19.75d
-			y: -9.5d
+			x: -17.0d
+			y: -11.25d
 			id: "4E87E842ED3697CC"
 			tasks: [{
 				id: "4ED93724588ACC1D"
@@ -193,8 +193,8 @@
 			}]
 		}
 		{
-			x: -16.75d
-			y: -12.75d
+			x: -14.0d
+			y: -14.5d
 			id: "43A4D4FB83AADE2C"
 			tasks: [{
 				id: "68CC9B47772333B5"
@@ -203,8 +203,8 @@
 			}]
 		}
 		{
-			x: -18.25d
-			y: -8.75d
+			x: -15.5d
+			y: -10.5d
 			id: "6B033F1743F762DE"
 			tasks: [{
 				id: "1BAD86797A2E7C1E"
@@ -213,8 +213,8 @@
 			}]
 		}
 		{
-			x: -18.25d
-			y: -11.5d
+			x: -15.5d
+			y: -13.25d
 			id: "44B36AB59DECC076"
 			tasks: [{
 				id: "6A919862F5F637AA"
@@ -223,8 +223,8 @@
 			}]
 		}
 		{
-			x: -19.75d
-			y: -8.0d
+			x: -17.0d
+			y: -9.75d
 			id: "7595B594EAAA12BB"
 			tasks: [{
 				id: "18BED54E098593A8"
@@ -253,8 +253,8 @@
 			}]
 		}
 		{
-			x: -16.75d
-			y: -11.5d
+			x: -14.0d
+			y: -13.25d
 			id: "64C346026D50B698"
 			tasks: [{
 				id: "2973CBBCBD0CDD1A"
@@ -263,8 +263,8 @@
 			}]
 		}
 		{
-			x: -24.75d
-			y: -15.0d
+			x: -21.75d
+			y: -14.25d
 			dependencies: [
 				"3B36A915BC45D63D"
 				"09BB08E0B7167A8B"
@@ -303,7 +303,7 @@
 		}
 		{
 			x: -24.75d
-			y: -13.75d
+			y: -14.25d
 			dependencies: [
 				"3B36A915BC45D63D"
 				"09BB08E0B7167A8B"
@@ -317,7 +317,7 @@
 			}]
 		}
 		{
-			x: -24.75d
+			x: -21.75d
 			y: -11.75d
 			dependencies: [
 				"3B36A915BC45D63D"
@@ -329,6 +329,142 @@
 				id: "6EF3ED0D68EB891D"
 				type: "item"
 				item: "mysticalagriculture:prosperity_block"
+			}]
+		}
+		{
+			x: -28.25d
+			y: -9.5d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "174953F8DC5EDAE8"
+			tasks: [{
+				id: "67A74C229C36161A"
+				type: "item"
+				item: "mysticalagriculture:wood_seeds"
+			}]
+		}
+		{
+			x: -27.25d
+			y: -10.5d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "296BBC9A58ABD112"
+			tasks: [{
+				id: "42257243CC5BFBAB"
+				type: "item"
+				item: "mysticalagriculture:water_seeds"
+			}]
+		}
+		{
+			x: -28.25d
+			y: -7.5d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "669E07BD6D8022B1"
+			tasks: [{
+				id: "1460B8E1D2402676"
+				type: "item"
+				item: "mysticalagriculture:stone_seeds"
+			}]
+		}
+		{
+			x: -28.25d
+			y: -10.5d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "6845AA61E4AC3B8F"
+			tasks: [{
+				id: "03BA9E2CE9A4359C"
+				type: "item"
+				item: "mysticalagriculture:dirt_seeds"
+			}]
+		}
+		{
+			x: -28.25d
+			y: -8.5d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "1FA499BAA34800F8"
+			tasks: [{
+				id: "1F60975D87A24622"
+				type: "item"
+				item: "mysticalagriculture:deepslate_seeds"
+			}]
+		}
+		{
+			x: -27.25d
+			y: -11.5d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "28AE61758B3C7A01"
+			tasks: [{
+				id: "678E55F3F144491E"
+				type: "item"
+				item: "mysticalagriculture:fire_seeds"
+			}]
+		}
+		{
+			x: -27.25d
+			y: -8.5d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "72EAE93F8F4EDFFB"
+			tasks: [{
+				id: "3873C6258E8E2ACB"
+				type: "item"
+				item: "mysticalagriculture:earth_seeds"
+			}]
+		}
+		{
+			x: -27.25d
+			y: -9.5d
+			dependencies: ["3B36A915BC45D63D"]
+			hide: true
+			id: "42B72389C9315976"
+			tasks: [{
+				id: "2445C9EB81D59E55"
+				type: "item"
+				item: "mysticalagriculture:air_seeds"
+			}]
+		}
+		{
+			x: -28.25d
+			y: -11.5d
+			id: "23170B4F72EF3AF8"
+			tasks: [{
+				id: "04005853A7969470"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+		{
+			x: -21.75d
+			y: -15.5d
+			dependencies: [
+				"3B36A915BC45D63D"
+				"7605AF0C1C082AF9"
+			]
+			hide: true
+			id: "23BBF9B6D3E58863"
+			tasks: [{
+				id: "4AF3E13452A8A690"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: -21.75d
+			y: -13.0d
+			dependencies: [
+				"3B36A915BC45D63D"
+				"15B4ACA82328A121"
+			]
+			hide: true
+			id: "30A272765DC4BCC1"
+			tasks: [{
+				id: "6246F656ED5077CA"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
 			}]
 		}
 	]

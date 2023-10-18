@@ -1,6 +1,8 @@
 onEvent('recipes', event => {
     event.shapeless('workspacedead:poopblock', ['9x #workspacedead:poop']);
+    event.shapeless('9x workspacedead:poop',['workspacedead:poopblock']);
     event.shapeless('workspacedead:poopblock2x', ['9x workspacedead:poopblock']);
+    event.shapeless('9x workspacedead:poopblock',['workspacedead:poopblock2x']);
 
     event.shapeless('draconicevolution:draconium_dust', ['5x workspacedead:poop_dragon']);
 
