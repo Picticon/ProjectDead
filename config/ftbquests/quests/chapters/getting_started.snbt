@@ -5,12 +5,13 @@
 	filename: "getting_started"
 	title: "Purification Shard"
 	icon: "workspacedead:deadcookie"
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -7.25d
-			y: -6.25d
+			x: -6.5d
+			y: -5.5d
+			dependencies: ["0C5608D3A7DB3D5B"]
 			id: "398C80DCB591C6FE"
 			tasks: [{
 				id: "7875771EC3E6AB8F"
@@ -19,8 +20,8 @@
 			}]
 		}
 		{
-			x: -7.25d
-			y: -5.0d
+			x: -7.0d
+			y: -6.5d
 			dependencies: ["398C80DCB591C6FE"]
 			id: "55B8CCB9472245C8"
 			tasks: [{
@@ -31,9 +32,9 @@
 		}
 		{
 			icon: "bloodmagic:altar"
-			x: -7.25d
-			y: -3.75d
-			dependencies: ["55B8CCB9472245C8"]
+			x: -7.5d
+			y: -3.5d
+			dependencies: ["1F8D8E4C56122D69"]
 			id: "6245AA85020C78AD"
 			tasks: [
 				{
@@ -53,7 +54,7 @@
 			]
 		}
 		{
-			x: -7.25d
+			x: -8.0d
 			y: -2.5d
 			description: ["Throw a shard into dead water to make clean water."]
 			dependencies: ["6245AA85020C78AD"]
@@ -65,83 +66,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -3.75d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"6245AA85020C78AD"
-			]
-			hide: true
-			id: "3F7797C73E9E8635"
-			tasks: [
-				{
-					id: "036BED38BE740F5A"
-					type: "item"
-					item: "bloodmagic:blankslate"
-				}
-				{
-					id: "73FD8E9327F07417"
-					type: "item"
-					item: "bloodmagic:weakbloodorb"
-				}
-				{
-					id: "756C93306EAB31C3"
-					type: "item"
-					item: "bloodmagic:blankrune"
-				}
-			]
-		}
-		{
-			x: -6.0d
-			y: -4.25d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"6245AA85020C78AD"
-			]
-			hide: true
-			optional: true
-			id: "5BF4823157E39AEA"
-			tasks: [
-				{
-					id: "1F87ECB5531A222C"
-					type: "item"
-					item: "minecraft:stone"
-				}
-				{
-					id: "3CC3111157596047"
-					type: "item"
-					item: "minecraft:furnace"
-				}
-				{
-					id: "7DD5918B4F9E62A6"
-					type: "item"
-					item: "minecraft:charcoal"
-				}
-				{
-					id: "7753CA27BE3F9C63"
-					type: "item"
-					item: "minecraft:campfire"
-				}
-			]
-		}
-		{
-			x: -6.0d
-			y: -3.25d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"6245AA85020C78AD"
-			]
-			hide: true
-			id: "28C5FF28122253DA"
-			tasks: [{
-				id: "33BEF0EB34D668B6"
-				type: "item"
-				item: "minecraft:dirt"
-			}]
-		}
-		{
-			x: -7.25d
-			y: 0.0d
+			x: -6.5d
+			y: -1.5d
 			dependencies: ["5490EAD922FC01DB"]
 			id: "3688CE3FE1E91D0E"
 			tasks: [{
@@ -151,48 +77,9 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -0.5d
-			dependencies: [
-				"3688CE3FE1E91D0E"
-				"28C5FF28122253DA"
-				"3B36A915BC45D63D"
-			]
-			hide: true
-			optional: true
-			id: "1ACED12C03AFDACD"
-			tasks: [{
-				id: "3767E0ED2A986D2D"
-				type: "item"
-				item: "minecraft:wheat"
-			}]
-		}
-		{
-			x: -7.25d
-			y: 6.25d
-			dependencies: ["604ECD34F4791FFF"]
-			id: "70DB6A3782C91D6F"
-			tasks: [{
-				id: "69A4D833C9B6ACC4"
-				type: "item"
-				item: "workspacedead:weakpurifycrystal"
-			}]
-		}
-		{
-			x: -7.25d
-			y: 3.75d
-			dependencies: ["683B9CCCE2823267"]
-			id: "32E72196A208B5E6"
-			tasks: [{
-				id: "25B12CC6DECD3D33"
-				type: "item"
-				item: "minecraft:oak_sapling"
-			}]
-		}
-		{
-			x: -7.25d
-			y: 2.5d
-			dependencies: ["5E687ADBD9B4230B"]
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["7A06497083857CDE"]
 			id: "683B9CCCE2823267"
 			tasks: [{
 				id: "2E23F7891DF42F80"
@@ -204,9 +91,9 @@
 			}]
 		}
 		{
-			x: -7.25d
-			y: 5.0d
-			dependencies: ["32E72196A208B5E6"]
+			x: -8.5d
+			y: 0.5d
+			dependencies: ["3B7945F8177686A9"]
 			id: "604ECD34F4791FFF"
 			tasks: [{
 				id: "4F21B95DBA5F27B3"
@@ -215,190 +102,8 @@
 			}]
 		}
 		{
-			x: -7.25d
-			y: 1.25d
-			dependencies: ["3688CE3FE1E91D0E"]
-			dependency_requirement: "one_completed"
-			id: "5E687ADBD9B4230B"
-			tasks: [{
-				id: "04D763120D1C11E6"
-				type: "item"
-				item: "workspacedead:grassypotato_seeds"
-			}]
-		}
-		{
-			x: -6.0d
-			y: 0.75d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"3688CE3FE1E91D0E"
-				"1ACED12C03AFDACD"
-			]
-			hide: true
-			optional: true
-			id: "3BB9D383C26673F7"
-			tasks: [
-				{
-					id: "6E478A30B2F8D5B2"
-					type: "item"
-					item: "workspacedead:biomass_block"
-				}
-				{
-					id: "7C4C50F0225BDF9A"
-					type: "item"
-					item: "minecraft:poisonous_potato"
-				}
-				{
-					id: "2F0E8808306B75D3"
-					type: "item"
-					item: "minecraft:potato"
-				}
-			]
-		}
-		{
-			x: -6.0d
-			y: 2.5d
-			dependencies: [
-				"683B9CCCE2823267"
-				"3B36A915BC45D63D"
-			]
-			hide: true
-			optional: true
-			id: "5DBB2B14FBCC68D8"
-			tasks: [
-				{
-					id: "07B422CE93B4DB27"
-					type: "item"
-					item: "minecraft:grass"
-				}
-				{
-					id: "20C34577C25B59D7"
-					type: "item"
-					item: "projectdead:fakedeadleaves"
-				}
-				{
-					id: "2ABD1EA988AF358E"
-					type: "item"
-					item: "workspacedead:deadleaves"
-				}
-				{
-					id: "3A88216BEF151788"
-					type: "item"
-					item: "workspacedead:deadsapling"
-				}
-			]
-		}
-		{
-			x: -1.75d
-			y: -0.25d
-			dependencies: ["3B36A915BC45D63D"]
-			hide: true
-			id: "6875065DE7867AB8"
-		}
-		{
-			x: -8.5d
-			y: -6.25d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"398C80DCB591C6FE"
-			]
-			hide: true
-			optional: true
-			id: "7392AF02B28BA8DB"
-			tasks: [
-				{
-					id: "32A2E252737D249D"
-					type: "item"
-					item: "workspacedead:poop"
-				}
-				{
-					id: "63C768E2E283BD42"
-					type: "item"
-					item: {
-						id: "workspacedead:dirtysword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -8.5d
-			y: 5.0d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"604ECD34F4791FFF"
-			]
-			hide: true
-			optional: true
-			id: "64F313DFF7B4B3CB"
-			tasks: [{
-				id: "13679EC4DA63748E"
-				type: "item"
-				item: "minecraft:white_bed"
-			}]
-		}
-		{
-			x: -6.0d
-			y: 5.0d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"604ECD34F4791FFF"
-			]
-			hide: true
-			optional: true
-			id: "780143F952FCAC74"
-			tasks: [
-				{
-					id: "48E4B299577D2069"
-					type: "item"
-					item: "exnihilosequentia:oak_sieve"
-				}
-				{
-					id: "7BDB3BB7B732ED10"
-					type: "item"
-					item: "exnihilosequentia:string_mesh"
-				}
-				{
-					id: "22A510E3AEC961FB"
-					type: "item"
-					item: "minecraft:carrot"
-				}
-			]
-		}
-		{
-			x: -8.5d
-			y: 6.25d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"604ECD34F4791FFF"
-			]
-			hide: true
-			optional: true
-			id: "5CDEE2FDC31BBB08"
-			tasks: [
-				{
-					id: "465BD2F0720B7E3D"
-					type: "item"
-					item: "exnihilosequentia:porcelain_clay"
-				}
-				{
-					id: "15886CF646F6FA17"
-					type: "item"
-					item: "exnihilosequentia:fired_crucible"
-				}
-				{
-					id: "5E70621E8E6529F7"
-					type: "item"
-					item: "minecraft:pumpkin"
-				}
-			]
-		}
-		{
-			x: -7.25d
-			y: -1.25d
+			x: -7.0d
+			y: -2.5d
 			dependencies: ["5301ED23D9EFAA6D"]
 			id: "5490EAD922FC01DB"
 			tasks: [{
@@ -408,33 +113,476 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -6.0d
+			y: -0.5d
+			dependencies: [
+				"3688CE3FE1E91D0E"
+				"3911066E08A4BA4B"
+			]
+			id: "4B78FB0E7CB34C3D"
+			tasks: [{
+				id: "20E5839BC6D1E287"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			icon: "workspacedead:grassypotato_seeds"
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["4B78FB0E7CB34C3D"]
+			id: "7A06497083857CDE"
+			tasks: [{
+				id: "4535946FC61E153E"
+				type: "observation"
+				icon: "workspacedead:grassypotato_seeds"
+				timer: 0L
+				observe_type: 0
+				to_observe: "workspacedead:grassypotato_plant"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.0d
+			y: -4.5d
+			dependencies: [
+				"398C80DCB591C6FE"
+				"1F8D8E4C56122D69"
+				"6E23DA223E014092"
+			]
+			id: "33599E2DC594708C"
+			tasks: [{
+				id: "30D6687E1DE4422F"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			id: "1F8D8E4C56122D69"
+			tasks: [{
+				id: "69BCB2F272219065"
+				type: "item"
+				item: "graveyard:corruption"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["0FFFA444157ECEC3"]
+			id: "4D21B6718D3E040B"
+			tasks: [{
+				id: "38A176C710CBB60C"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["4D21B6718D3E040B"]
+			id: "63F82CD908D6CF77"
+			tasks: [{
+				id: "764CC1E93720E0CE"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["6245AA85020C78AD"]
+			id: "0FFFA444157ECEC3"
+			tasks: [{
+				id: "70D3F029EADC52E8"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["4D21B6718D3E040B"]
+			id: "505D8595F5DDA7F3"
+			tasks: [{
+				id: "507247F4798F4106"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: [
+				"505D8595F5DDA7F3"
+				"6245AA85020C78AD"
+			]
+			id: "22F81E770B57BBD0"
+			tasks: [{
+				id: "5D9196CE3F5BFA23"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			dependencies: [
+				"22F81E770B57BBD0"
+				"418B01EDAEAD2E8F"
+			]
+			id: "262CA776CDC4F05B"
+			tasks: [{
+				id: "56226E40F05538C6"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["269F3264B12AE1EC"]
+			id: "62D46F8E98A62681"
+			tasks: [{
+				id: "78EE2BEE36771CA5"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+						}
+						capacity: 5000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 5000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["62D46F8E98A62681"]
+			id: "0E8F4A0C59678DAA"
+			tasks: [{
+				id: "7550BC9338A7BD5A"
+				type: "item"
+				item: "evilcraft:hardened_blood_shard"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["0E8F4A0C59678DAA"]
+			id: "418B01EDAEAD2E8F"
+			tasks: [{
+				id: "1EBAF9F5BEF868DA"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			dependencies: ["5301ED23D9EFAA6D"]
+			id: "2B68FA9E1A91CFE3"
+			tasks: [{
+				id: "6CD68932FDAB0780"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["2B68FA9E1A91CFE3"]
+			id: "3911066E08A4BA4B"
+			tasks: [{
+				id: "53648A1CDD10E1AC"
+				type: "observation"
+				icon: "workspacedead:mutating_farmland"
+				timer: 0L
+				observe_type: 0
+				to_observe: "workspacedead:mutating_farmland"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["3911066E08A4BA4B"]
+			id: "3B7945F8177686A9"
+			tasks: [{
+				id: "78AD62FBDCCB8764"
+				type: "item"
+				item: "supplementaries:flax_seeds"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			dependencies: ["604ECD34F4791FFF"]
+			id: "31E681CB47AEBBDA"
+			tasks: [{
+				id: "3C45A11D69ADB8CE"
+				type: "item"
+				item: "minecraft:white_bed"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["11C6A4E3702B7403"]
+			id: "35E20AFA9513FFBE"
+			tasks: [{
+				id: "3B1755514443F9FA"
+				type: "item"
+				item: "minecraft:pumpkin"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			dependencies: ["1BC28C36DDE20863"]
+			id: "5C9D98AF36EE86C1"
+			tasks: [{
+				id: "1ADE52B1B1964B7C"
+				type: "item"
+				item: "minecraft:beetroot"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["3911066E08A4BA4B"]
+			id: "1BC28C36DDE20863"
+			tasks: [{
+				id: "7DAE3E0289E96DEB"
+				type: "item"
+				item: "minecraft:beetroot_seeds"
+			}]
+		}
+		{
+			x: -6.5d
 			y: 2.5d
 			dependencies: [
-				"3B36A915BC45D63D"
-				"683B9CCCE2823267"
+				"35E20AFA9513FFBE"
+				"5C9D98AF36EE86C1"
+				"1A4BFFFAA5923409"
+				"4A53A0260CCA7DAB"
 			]
-			hide: true
-			id: "0FD628CB06D891A2"
+			id: "227B6611E6F6059D"
 			tasks: [{
-				id: "4CF3EBAE62FB02EB"
+				id: "68563AE81F78616D"
+				type: "item"
+				item: "workspacedead:weakpurifycrystal"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["683B9CCCE2823267"]
+			id: "2F13F80934092BA7"
+			tasks: [{
+				id: "5128866AD18D199B"
+				type: "item"
+				item: "minecraft:grass"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["2F13F80934092BA7"]
+			id: "1A4BFFFAA5923409"
+			tasks: [{
+				id: "38B0D27E8ADE6809"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			dependencies: ["683B9CCCE2823267"]
+			id: "1D15A4EE65265E28"
+			tasks: [{
+				id: "2C6CE092266F23AC"
 				type: "item"
 				item: "botania:fertilizer"
 			}]
 		}
 		{
-			x: -8.5d
-			y: 0.75d
+			x: -6.5d
+			y: 0.5d
 			dependencies: [
-				"3B36A915BC45D63D"
-				"3688CE3FE1E91D0E"
+				"3911066E08A4BA4B"
+				"1D15A4EE65265E28"
 			]
-			hide: true
-			id: "7A5D1D7A91333151"
+			id: "11C6A4E3702B7403"
 			tasks: [{
-				id: "3ABE3530E4BE5CD5"
+				id: "0679FB9E9383EEE3"
 				type: "item"
-				item: "mysticalagriculture:inferium_seeds"
+				item: "minecraft:melon_seeds"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["5301ED23D9EFAA6D"]
+			id: "3087CF8311773140"
+			tasks: [{
+				id: "665F0AAD3E8A26C1"
+				type: "item"
+				item: {
+					id: "woodenbucket:wooden_bucket"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:water"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			dependencies: ["3911066E08A4BA4B"]
+			id: "5C29D03A90916C8F"
+			tasks: [{
+				id: "240B75202A60F2E2"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["2F13F80934092BA7"]
+			id: "4A53A0260CCA7DAB"
+			tasks: [{
+				id: "060D995A0688A109"
+				type: "item"
+				item: "minecraft:poppy"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			dependencies: ["63F82CD908D6CF77"]
+			id: "0F94A879875E2A24"
+			tasks: [{
+				id: "08B9224F7869D13C"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			icon: "workspacedead:poop"
+			x: -7.5d
+			y: -5.5d
+			dependencies: ["398C80DCB591C6FE"]
+			id: "57E052029E4FE9AA"
+			tasks: [{
+				id: "4532815A7070F8B2"
+				type: "item"
+				title: "Any #workspacedead:poop"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "workspacedead:poop"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.5d
+			dependencies: ["57E052029E4FE9AA"]
+			id: "185479AA4B3FF2E8"
+			tasks: [{
+				id: "20664EE8B33BD26D"
+				type: "item"
+				item: "workspacedead:dirtybread"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.5d
+			dependencies: ["57E052029E4FE9AA"]
+			id: "1411D34544CDA85F"
+			tasks: [{
+				id: "042D14224979AB3F"
+				type: "item"
+				item: {
+					id: "workspacedead:dirtysword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			id: "45CCE013F5E64BF4"
+			tasks: [{
+				id: "44E83DA9F5F78FD5"
+				type: "item"
+				item: "workspacedead:deadlog"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.5d
+			dependencies: ["45CCE013F5E64BF4"]
+			id: "6E23DA223E014092"
+			tasks: [{
+				id: "475066257725D5C9"
+				type: "item"
+				item: "workspacedead:deadplanks"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			id: "0C5608D3A7DB3D5B"
+			tasks: [{
+				id: "7ADEAFECD6869C1C"
+				type: "item"
+				item: "workspacedead:deadgrass_scraps"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			id: "269F3264B12AE1EC"
+			tasks: [{
+				id: "2A0AB9D228DE1ED5"
+				type: "item"
+				item: "minecraft:bone"
 			}]
 		}
 	]

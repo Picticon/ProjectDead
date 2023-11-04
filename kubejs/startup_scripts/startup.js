@@ -15,6 +15,7 @@ onEvent('item.registry', event => {
     //event.create('projectdead:bigcrateoffood').displayName('');
     event.create('projectdead:netherigniter').displayName('Nether Igniter');
     event.create('projectdead:purified_flesh').displayName('Purified Flesh');
+    event.create('projectdead:liverpiece').displayName('Piece of Liver');
 
     event.create('projectdead:singularity_poop').displayName('Poop Singularity');
     event.create('projectdead:singularity_potato').displayName('Potato Singularity');

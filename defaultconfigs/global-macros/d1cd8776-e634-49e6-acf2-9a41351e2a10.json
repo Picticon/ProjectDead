@@ -1,0 +1,11 @@
+{
+  "uuid": "d1cd8776-e634-49e6-acf2-9a41351e2a10",
+  "name": "reload kubejs server",
+  "actionText": "/kubejs reload server_scripts",
+  "key": 293,
+  "keyName": "F4",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1697763453662
+}

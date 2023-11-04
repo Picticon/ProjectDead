@@ -44,7 +44,8 @@ onEvent('recipes', (event) => {
         .input('bloodmagic:basemonstersoul')
         .recipeTime(150)
 
-    event.shapeless('workspacedead:weakpurifycrystal', ['minecraft:flint_and_steel', '4x minecraft:obsidian']);
+        // what was this?!?
+   // event.shapeless('workspacedead:weakpurifycrystal', ['minecraft:flint_and_steel', '4x minecraft:obsidian']);
 
     // //piglin
     // event.recipes.summoningrituals

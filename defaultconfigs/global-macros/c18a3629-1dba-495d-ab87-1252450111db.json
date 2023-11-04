@@ -1,0 +1,12 @@
+{
+  "uuid": "c18a3629-1dba-495d-ab87-1252450111db",
+  "name": "reload",
+  "actionText": "/reload",
+  "key": 293,
+  "action": "COMMAND",
+  "delayedTime": 1000,
+  "keyName": "F4",
+  "enable": true,
+  "macroType": "DELAYED",
+  "createdTime": 1697763578881
+}

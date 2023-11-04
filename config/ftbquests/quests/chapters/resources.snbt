@@ -8,42 +8,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -23.25d
-			y: -15.5d
-			dependencies: ["29938EA5A11ADEFD"]
-			id: "7605AF0C1C082AF9"
-			tasks: [{
-				id: "253C8201DB1FE43C"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
-		}
-		{
-			x: -18.25d
-			y: -14.0d
+			x: -11.5d
+			y: -16.5d
 			id: "27AE3A3F30D79957"
 			tasks: [{
 				id: "078FA208C511C8F3"
 				type: "item"
 				item: "minecraft:copper_ingot"
-			}]
-		}
-		{
-			x: -27.5d
-			y: -13.5d
-			dependencies: ["3B36A915BC45D63D"]
-			hide: true
-			id: "73C2274DB21BC2B3"
-		}
-		{
-			x: -23.25d
-			y: -13.0d
-			dependencies: ["09BB08E0B7167A8B"]
-			id: "15B4ACA82328A121"
-			tasks: [{
-				id: "6D58596797BA10B2"
-				type: "item"
-				item: "minecraft:gold_ingot"
 			}]
 		}
 		{
@@ -63,8 +34,9 @@
 			}]
 		}
 		{
-			x: -15.75d
-			y: -15.75d
+			x: -19.5d
+			y: -16.5d
+			dependencies: ["02E5E3E2A9FBDC12"]
 			id: "5E40FE8A01C2F17C"
 			tasks: [{
 				id: "2986481BA3F1FAB8"
@@ -73,63 +45,13 @@
 			}]
 		}
 		{
-			x: -17.0d
-			y: -14.25d
-			id: "62AF8B0BD66DD554"
-			tasks: [{
-				id: "2BA3BDDF4EABF0D6"
-				type: "item"
-				item: "botania:mana_pool"
-			}]
-		}
-		{
-			x: -17.0d
-			y: -12.75d
-			id: "6E3354DBC6418C20"
-			tasks: [{
-				id: "38B6F27F264626F6"
-				type: "item"
-				item: "botania:runic_altar"
-			}]
-		}
-		{
-			x: -23.25d
-			y: -11.75d
-			dependencies: ["15B4ACA82328A121"]
-			id: "634319594557761A"
-			tasks: [
-				{
-					id: "0F5E14F399DAFC2D"
-					type: "item"
-					item: "mysticalagriculture:infusion_altar"
-				}
-				{
-					id: "18CAA9C1BE6C6D4F"
-					type: "item"
-					item: "mysticalagriculture:infusion_pedestal"
-					count: 8L
-				}
-			]
-		}
-		{
-			x: -15.5d
-			y: -12.0d
+			x: -12.0d
+			y: -13.5d
 			id: "5F623E87036E95AA"
 			tasks: [{
 				id: "72D3D226FE053B0F"
 				type: "item"
 				item: "projectdead:purified_flesh"
-			}]
-		}
-		{
-			x: -23.25d
-			y: -14.25d
-			dependencies: ["7605AF0C1C082AF9"]
-			id: "09BB08E0B7167A8B"
-			tasks: [{
-				id: "470BD43D8B457188"
-				type: "item"
-				item: "summoningrituals:altar"
 			}]
 		}
 		{
@@ -183,8 +105,8 @@
 			}]
 		}
 		{
-			x: -17.0d
-			y: -11.25d
+			x: -12.5d
+			y: -11.5d
 			id: "4E87E842ED3697CC"
 			tasks: [{
 				id: "4ED93724588ACC1D"
@@ -193,8 +115,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: -14.5d
+			x: -12.0d
+			y: -16.0d
 			id: "43A4D4FB83AADE2C"
 			tasks: [{
 				id: "68CC9B47772333B5"
@@ -203,8 +125,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: -10.5d
+			x: -12.0d
+			y: -12.5d
 			id: "6B033F1743F762DE"
 			tasks: [{
 				id: "1BAD86797A2E7C1E"
@@ -213,8 +135,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: -13.25d
+			x: -12.5d
+			y: -14.5d
 			id: "44B36AB59DECC076"
 			tasks: [{
 				id: "6A919862F5F637AA"
@@ -223,8 +145,8 @@
 			}]
 		}
 		{
-			x: -17.0d
-			y: -9.75d
+			x: -12.5d
+			y: -9.5d
 			id: "7595B594EAAA12BB"
 			tasks: [{
 				id: "18BED54E098593A8"
@@ -253,8 +175,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: -13.25d
+			x: -12.0d
+			y: -15.0d
 			id: "64C346026D50B698"
 			tasks: [{
 				id: "2973CBBCBD0CDD1A"
@@ -263,66 +185,8 @@
 			}]
 		}
 		{
-			x: -21.75d
-			y: -14.25d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"09BB08E0B7167A8B"
-			]
-			hide: true
-			id: "39A1ED7BE7324981"
-			tasks: [{
-				id: "79F0F5C2D1CBA9C2"
-				type: "item"
-				item: "workspacedead:poop_zombifiedpiglin"
-			}]
-		}
-		{
-			x: -23.25d
-			y: -16.75d
-			id: "29938EA5A11ADEFD"
-			tasks: [{
-				id: "08BB39FB0A2C2D88"
-				type: "observation"
-				icon: "minecraft:bone_block"
-				timer: 0L
-				observe_type: 5
-				to_observe: "workspacedead:bonegolem"
-			}]
-		}
-		{
-			x: -23.25d
-			y: -10.5d
-			dependencies: ["634319594557761A"]
-			id: "145782C7B24131B5"
-			tasks: [{
-				id: "5C443F87805F06C6"
-				type: "item"
-				item: "mysticalagriculture:prosperity_seed_base"
-			}]
-		}
-		{
-			x: -24.75d
-			y: -14.25d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"09BB08E0B7167A8B"
-			]
-			hide: true
-			id: "3E6B43183D22F18B"
-			tasks: [{
-				id: "72127FE9F67E3F47"
-				type: "item"
-				item: "workspacedead:poop_guardian"
-			}]
-		}
-		{
-			x: -21.75d
-			y: -11.75d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"634319594557761A"
-			]
+			x: -23.5d
+			y: -11.5d
 			hide: true
 			id: "3F00DF0D5F6D3A87"
 			tasks: [{
@@ -332,21 +196,8 @@
 			}]
 		}
 		{
-			x: -28.25d
-			y: -9.5d
-			dependencies: ["3B36A915BC45D63D"]
-			hide: true
-			id: "174953F8DC5EDAE8"
-			tasks: [{
-				id: "67A74C229C36161A"
-				type: "item"
-				item: "mysticalagriculture:wood_seeds"
-			}]
-		}
-		{
-			x: -27.25d
-			y: -10.5d
-			dependencies: ["3B36A915BC45D63D"]
+			x: -23.5d
+			y: -15.5d
 			hide: true
 			id: "296BBC9A58ABD112"
 			tasks: [{
@@ -356,45 +207,8 @@
 			}]
 		}
 		{
-			x: -28.25d
-			y: -7.5d
-			dependencies: ["3B36A915BC45D63D"]
-			hide: true
-			id: "669E07BD6D8022B1"
-			tasks: [{
-				id: "1460B8E1D2402676"
-				type: "item"
-				item: "mysticalagriculture:stone_seeds"
-			}]
-		}
-		{
-			x: -28.25d
-			y: -10.5d
-			dependencies: ["3B36A915BC45D63D"]
-			hide: true
-			id: "6845AA61E4AC3B8F"
-			tasks: [{
-				id: "03BA9E2CE9A4359C"
-				type: "item"
-				item: "mysticalagriculture:dirt_seeds"
-			}]
-		}
-		{
-			x: -28.25d
-			y: -8.5d
-			dependencies: ["3B36A915BC45D63D"]
-			hide: true
-			id: "1FA499BAA34800F8"
-			tasks: [{
-				id: "1F60975D87A24622"
-				type: "item"
-				item: "mysticalagriculture:deepslate_seeds"
-			}]
-		}
-		{
-			x: -27.25d
-			y: -11.5d
-			dependencies: ["3B36A915BC45D63D"]
+			x: -23.5d
+			y: -16.5d
 			hide: true
 			id: "28AE61758B3C7A01"
 			tasks: [{
@@ -404,9 +218,8 @@
 			}]
 		}
 		{
-			x: -27.25d
-			y: -8.5d
-			dependencies: ["3B36A915BC45D63D"]
+			x: -23.5d
+			y: -13.5d
 			hide: true
 			id: "72EAE93F8F4EDFFB"
 			tasks: [{
@@ -416,9 +229,8 @@
 			}]
 		}
 		{
-			x: -27.25d
-			y: -9.5d
-			dependencies: ["3B36A915BC45D63D"]
+			x: -23.5d
+			y: -14.5d
 			hide: true
 			id: "42B72389C9315976"
 			tasks: [{
@@ -428,22 +240,8 @@
 			}]
 		}
 		{
-			x: -28.25d
-			y: -11.5d
-			id: "23170B4F72EF3AF8"
-			tasks: [{
-				id: "04005853A7969470"
-				type: "item"
-				item: "mysticalagriculture:inferium_seeds"
-			}]
-		}
-		{
-			x: -21.75d
-			y: -15.5d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"7605AF0C1C082AF9"
-			]
+			x: -24.5d
+			y: -16.5d
 			hide: true
 			id: "23BBF9B6D3E58863"
 			tasks: [{
@@ -453,18 +251,476 @@
 			}]
 		}
 		{
-			x: -21.75d
-			y: -13.0d
-			dependencies: [
-				"3B36A915BC45D63D"
-				"15B4ACA82328A121"
-			]
-			hide: true
-			id: "30A272765DC4BCC1"
+			x: -24.5d
+			y: -11.75d
+			id: "64F72B4FDFC3F657"
 			tasks: [{
-				id: "6246F656ED5077CA"
+				id: "36188CF34ACFCCDB"
 				type: "item"
-				item: "bloodmagic:sacrificerune"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: -24.5d
+			y: -8.0d
+			dependencies: ["4A8968AD592D6B2B"]
+			hide: true
+			id: "5064840E563D47B2"
+			tasks: [
+				{
+					id: "3CD97D0F0FA7CCE7"
+					type: "item"
+					item: "thermal:sulfur_dust"
+				}
+				{
+					id: "524A34FCB46F288A"
+					type: "item"
+					item: "thermal:niter_dust"
+				}
+				{
+					id: "19B9812C1EA3F782"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+			]
+		}
+		{
+			x: -24.5d
+			y: -10.5d
+			dependencies: ["64F72B4FDFC3F657"]
+			id: "3FF9DBC7E01F6B39"
+			tasks: [{
+				id: "165ED537BA3D94C3"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -24.5d
+			y: -9.25d
+			dependencies: ["3FF9DBC7E01F6B39"]
+			id: "4A8968AD592D6B2B"
+			tasks: [{
+				id: "7965962FA15E5F04"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: -23.5d
+			y: -9.5d
+			dependencies: ["06F6D522C1F848CA"]
+			id: "18CEBC9B3F62C74A"
+			tasks: [{
+				id: "6EF99AEDC8C66DEF"
+				type: "item"
+				item: "minecraft:copper_ore"
+			}]
+		}
+		{
+			x: -23.5d
+			y: -10.5d
+			id: "06F6D522C1F848CA"
+			tasks: [{
+				id: "43EAAF632C20170C"
+				type: "item"
+				item: "projectdead:liverpiece"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -17.5d
+			id: "02E5E3E2A9FBDC12"
+			tasks: [{
+				id: "2B3D0CEE88F4AA3A"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: -20.5d
+			y: -16.5d
+			dependencies: ["5E40FE8A01C2F17C"]
+			id: "0A9F430E6A45D9F7"
+			tasks: [{
+				id: "380653ECD6DAF7CD"
+				type: "item"
+				item: "botania:livingwood_log"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -15.5d
+			dependencies: ["5E40FE8A01C2F17C"]
+			id: "28029FDECB39E64E"
+			tasks: [{
+				id: "5B9FB18CFC0C4757"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+		}
+		{
+			x: -21.0d
+			y: -15.5d
+			dependencies: ["0A9F430E6A45D9F7"]
+			id: "7D1087FE84F0BD75"
+			tasks: [{
+				id: "5682AFE360F10025"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -20.0d
+			y: -15.5d
+			dependencies: ["0A9F430E6A45D9F7"]
+			id: "06982975555F2242"
+			tasks: [{
+				id: "792FA74974FFAAEE"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -14.5d
+			dependencies: ["28029FDECB39E64E"]
+			id: "6F4BBAB2324E5710"
+			tasks: [{
+				id: "26FA75B01A843BEE"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			icon: "minecraft:bone_block"
+			x: -21.0d
+			y: -11.5d
+			id: "0FB1C9513119C11A"
+			tasks: [
+				{
+					id: "309B152D9C3CA04D"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 4L
+				}
+				{
+					id: "2473CACD414FBBC7"
+					type: "item"
+					item: {
+						id: "woodenshears:wooden_shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3257EFCB016EFBCF"
+					type: "item"
+					item: "workspacedead:poopblock"
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -16.5d
+			dependencies: ["02E5E3E2A9FBDC12"]
+			id: "42686089BA8133E4"
+			tasks: [{
+				id: "33A99CB50959D241"
+				type: "item"
+				title: "Any #botania:generating_special_flowers"
+				icon: "botania:endoflame"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:generating_special_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: -20.0d
+			y: -11.5d
+			dependencies: ["0FB1C9513119C11A"]
+			id: "5C50E6DFBF31FD4F"
+			tasks: [{
+				id: "0C933C1996DC15D1"
+				type: "item"
+				item: "workspacedead:poop_iron_golem"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -12.5d
+			dependencies: ["5C50E6DFBF31FD4F"]
+			id: "4FD062163225D241"
+			tasks: [{
+				id: "0032E471FBE85AD5"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -13.5d
+			dependencies: [
+				"4FD062163225D241"
+				"6F4BBAB2324E5710"
+			]
+			id: "55586D43D1B6325C"
+			tasks: [{
+				id: "28E81B09C7B18955"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -14.5d
+			dependencies: ["6F4BBAB2324E5710"]
+			id: "0037AD8E02C210BC"
+			tasks: [{
+				id: "72D92B760E6C147F"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+		}
+		{
+			x: -19.0d
+			y: -13.5d
+			dependencies: ["0037AD8E02C210BC"]
+			id: "66E1C083B236AAC7"
+			tasks: [{
+				id: "62693067B142FD22"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+		{
+			x: -21.0d
+			y: -13.5d
+			dependencies: ["55586D43D1B6325C"]
+			id: "186A29A2EC7B73B1"
+			tasks: [{
+				id: "4DC1D69CA914D1EA"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			x: -20.5d
+			y: -12.5d
+			dependencies: ["186A29A2EC7B73B1"]
+			id: "5854EA63096A1340"
+			tasks: [{
+				id: "51B4EDB992F83DE7"
+				type: "item"
+				title: "Any #tconstruct:tables"
+				icon: "tconstruct:crafting_station"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tables"
+					}
+				}
+			}]
+		}
+		{
+			x: -20.5d
+			y: -14.5d
+			dependencies: [
+				"06982975555F2242"
+				"6F4BBAB2324E5710"
+			]
+			id: "6B1FE47A0AC3663F"
+			tasks: [{
+				id: "3EBDAA8FFC0C394C"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -17.5d
+			dependencies: ["5E40FE8A01C2F17C"]
+			id: "1D1258CCF58B657F"
+			tasks: [{
+				id: "2E476C1452B6A19F"
+				type: "item"
+				item: "minecraft:snow_block"
+			}]
+		}
+		{
+			x: -21.0d
+			y: -17.5d
+			dependencies: ["1D1258CCF58B657F"]
+			id: "5BFCF00863704A0C"
+			tasks: [{
+				id: "101B7BD395321CE5"
+				type: "item"
+				item: "minecraft:ice"
+			}]
+		}
+		{
+			icon: "mysticalagriculture:infusion_altar"
+			x: -16.0d
+			y: -15.5d
+			dependencies: [
+				"28029FDECB39E64E"
+				"0037AD8E02C210BC"
+			]
+			id: "751DE5FD78BF4A78"
+			tasks: [
+				{
+					id: "6ACD53127D9FC7D4"
+					type: "item"
+					item: "mysticalagriculture:infusion_altar"
+				}
+				{
+					id: "2D5ACEB715368676"
+					type: "item"
+					item: "mysticalagriculture:infusion_pedestal"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -16.5d
+			dependencies: [
+				"751DE5FD78BF4A78"
+				"13D3FA6272F00CB2"
+			]
+			id: "73D8059F4685E15E"
+			tasks: [{
+				id: "2A03931A9AEBEBE0"
+				type: "item"
+				item: "mysticalagriculture:stone_seeds"
+			}]
+		}
+		{
+			x: -16.5d
+			y: -16.5d
+			dependencies: [
+				"751DE5FD78BF4A78"
+				"68799313E2F79575"
+			]
+			id: "628E02953A649483"
+			tasks: [{
+				id: "6E819EC17DA53466"
+				type: "item"
+				item: "mysticalagriculture:dirt_seeds"
+			}]
+		}
+		{
+			x: -17.5d
+			y: -16.5d
+			dependencies: [
+				"751DE5FD78BF4A78"
+				"5F214992697D1765"
+			]
+			id: "2FA221EA8ABEDB20"
+			tasks: [{
+				id: "0B035E5D9277B61C"
+				type: "item"
+				item: "mysticalagriculture:wood_seeds"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -16.5d
+			dependencies: [
+				"751DE5FD78BF4A78"
+				"5EDFD00FA56DA39B"
+			]
+			id: "1BEC15E06BB65D27"
+			tasks: [{
+				id: "2F64F5DD32212DE5"
+				type: "item"
+				item: "mysticalagriculture:ice_seeds"
+			}]
+		}
+		{
+			x: -18.0d
+			y: -17.5d
+			id: "5F214992697D1765"
+			tasks: [{
+				id: "35C19B51D7DA41A3"
+				type: "item"
+				item: "mysticalagriculture:wood_essence"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -17.5d
+			id: "68799313E2F79575"
+			tasks: [{
+				id: "0EBFA36E5A91AA20"
+				type: "item"
+				item: "mysticalagriculture:dirt_essence"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -17.5d
+			id: "13D3FA6272F00CB2"
+			tasks: [{
+				id: "7E2996AC4751B7B3"
+				type: "item"
+				item: "mysticalagriculture:stone_essence"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -17.5d
+			id: "5EDFD00FA56DA39B"
+			tasks: [{
+				id: "2403EDC7D2156E4D"
+				type: "item"
+				item: "mysticalagriculture:ice_essence"
+			}]
+		}
+		{
+			x: -16.5d
+			y: -14.5d
+			id: "18A6A1A2CCADA18B"
+			tasks: [{
+				id: "1C42748750D16D63"
+				type: "item"
+				item: {
+					id: "matc:prudentium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -14.5d
+			id: "1B2634C07B0B6BE5"
+			tasks: [{
+				id: "00752F9927900B48"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
 			}]
 		}
 	]

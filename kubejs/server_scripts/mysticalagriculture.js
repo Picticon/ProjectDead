@@ -1,8 +1,6 @@
 onEvent('recipes', event => {
     //event.replaceInput({id:''},'','');
-    event.replaceInput({ id: 'mysticalagriculture:nature_agglomeratio' }, 'minecraft:cactus', 'minecraft:apple');
-    event.replaceInput({ id: 'mysticalagriculture:nature_agglomeratio' }, 'minecraft:sugar_cane', 'minecraft:carrot');
-    event.replaceInput({ id: 'mysticalagriculture:seed/infusion/nature' }, 'mysticalagriculture:prudentium_essence', 'mysticalagriculture:inferium_essence');
+    //event.replaceInput({ id: 'mysticalagriculture:seed/infusion/nature' }, 'mysticalagriculture:prudentium_essence', 'mysticalagriculture:inferium_essence');
     /*
     event.remove({ output: 'mysticalagriculture:nature_seeds' });
     event.custom({
